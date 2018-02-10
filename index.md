@@ -4,4 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-Let's figure some things out ;-)
+Let's figure some things out ;-) !!
