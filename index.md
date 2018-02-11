@@ -4,4 +4,10 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-Let's figure some things out ;-) !!
+<h1>
+  GORUCO is a one day, single track, polyglot conference in New York City
+</h1>
+
+<h2>
+  Saturday, June 16th 2018
+</h2>
