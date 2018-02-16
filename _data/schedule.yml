@@ -1,0 +1,83 @@
+- title: "Registration"
+  name: Doors open, get your conference badge and some New York breakfast
+  time: 9:00 AM
+  duration: 60
+
+- title: "Keynote: Code Quality Lessons Learned"
+  name: Bryan Helmkamp (NY)
+  time: 10:00 AM
+  duration: 30
+
+- title: "The Guest: A Guide To Code Hospitality"
+  name: Nadia Odunayo (UK)
+  time: 10:40 AM
+  duration: 30
+
+- title: "Symmetric API Testing"
+  name: Aditya Mukerjee (NY)
+  time: 11:35 AM
+  duration: 30
+
+- title: "Pipe Operator for Ruby"
+  name: Fabio Akita (Brazil)
+  time: 12:15 AM
+  duration: 10
+
+- title: "Introducing the Crystal Programming Language"
+  name: Will Leinweber (SF)
+  time: 12:20 AM
+  duration: 10
+
+- title: "Ruby Racing: Challenging Ruby Methods"
+  name: Danielle Adams (NY)
+  time: 12:40 AM
+  duration: 10
+
+- title: "Lunch "
+  name: Dig Inn
+  time: 12:55 AM
+  duration: 60
+  icon: lunchbowl
+  milestone: true
+
+- title: "Just a Ruby Minute"
+  name: Andrew Faraday (UK)
+  time: 02:20 PM
+  duration: 30
+
+- title: "Impactful Refactors: Refactoring for Readability"
+  name: Kinsey Ann Durham (Denver)
+  time: 3:00 PM
+  duration: 10
+
+- title: "Database performance at scale for RoR and MySQL"
+  name: Rocio Delgado (NY)
+  time: 3:15 PM
+  duration: 10
+
+- title: "Enumerable’s Ugly Cousin"
+  name: Ross Kaffenberger (NY)
+  time: 3:30 PM
+  duration: 10
+
+- title: "Big Data with rubygems.org Download Data"
+  name: Aja Hammerly (Seattle)
+  time: 4:10 PM
+  duration: 30
+
+- title: "Keynote: Cult(ure)"
+  name: Adam Cuppy (San Diego)
+  time: 4:50 PM
+  duration: 30
+
+- title: "After Party Boarding "
+  name: Entertainment Cruises - Chelsea Piers - Pier 61, West 23rd Street
+  time: 6:00 PM
+  duration: 45
+  icon: boat
+  milestone: true
+
+- title: "After Party Set Sail"
+  name: Ahoy Mateys!
+  time: 6:45 PM
+  duration: 135

@@ -1,0 +1,320 @@
+---
+layout: default
+---
+
+<div class='announcement'>
+  <h3> Saturday, June 13th, 2018 </h3>
+  <h1>
+    <div class='headline'>Goruco is a one day, single track</div>
+    Conference in new york city
+  </h1>
+
+  <!--a class='videos-button' href='https://ti.to/goruco/2016' target='_blank'>
+    Tickets
+  </a-->
+
+  <div class='speaking'>
+    <div class='speaking-items'>
+      <a href="/assets/sponsor-prospectus.pdf" target="_blank">
+        <img src='/assets/images/download.png' />
+        Sponsor Prospectus
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class='container section-container' style='display: none;'>
+  <div class='row'>
+    <div class='col-xs-12'>
+      <div class='content-wrapper'>
+        <div class='section' id='schedule'>
+          <div class='row'>
+            <div class='col-xs-12'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+              <h2>Schedule</h2>
+            </div>
+          </div>
+          <div class='post schedule-wrap'>
+            <ul class='schedule'>
+              {% for schedule in site.data.schedule %}
+              <li class="schedule-item {% if schedule.milestone %}milestone{% endif %}">
+                <div class="relative">
+                  <div class="left">
+                    <span class='time'>{{ schedule.time }}</span>
+                    <span class='duration'>{{ schedule.duration }} MIN</span>
+                  </div>
+
+                  <div class="right">
+                    <div class="title">{{ schedule.title }} {% if schedule.icon %}<img class="icon" src='/assets/images/{{schedule.icon}}.png' />{% endif %}</div>
+                    <div class='name'>{{ schedule.name }}</div>
+                  </div>
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <div class='section type-on-dark' id='location'>
+          <div class='section-divider'>
+            <hr />
+            <img src='/assets/images/ruby-hr.png' />
+          </div>
+
+          <div class="location-wrap">
+            <div class="location-content">
+              <h2 class="text-no-shadow">Location</h2>
+              <p>GORUCO 2016 will be held at the beautiful Altman Building in Chelsea, located at 135 West 18th Street in New York City. It is easily accessible via the 1, 2, 3, F, M, and L trains.</p>
+              <div class="buttons">
+                <a href="http://www.altmanbldg.com/#home" target="_blank" class="ui-btn-secondary-on-dark left-button">Check out the Space</a>
+                <a href="https://www.google.com/maps/place/The+Altman+Building/@40.7406744,-73.9984311,17z/data=!3m2!4b1!5s0x89c259bcea246d71:0x2c52a635473c960!4m5!3m4!1s0x89c259bce847986f:0x58d878dcb0e7cac1!8m2!3d40.7406744!4d-73.9962424" target="_blank" class="ui-btn right-button">Get Directions</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='speaker-section section' id="speakers">
+          <div class='row'>
+            <div class='col-xs-12'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+              <h2>Speakers</h2>
+            </div>
+          </div>
+
+          <div class='speakers'>
+            {% for speaker in site.data.speakers %}
+            <div class='speaker'>
+              <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+              <div class='speaker-info'>
+                <h4>{{ speaker.name }}</h4>
+                <h5>{{speaker.title}}</h5>
+                <h6>{{ speaker.location }}</h6>
+                <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+              </div>
+              <p class='excerpt'>
+              {{ speaker.description | truncatewords: 25 }}
+              <a href='#' class='read-more' data-toggle="modal" data-target="#modal-{{ forloop.index }}">Read More</a>
+              </p>
+
+              <div class="modal fade" id="modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h4 class="modal-title">
+                        {{ speaker.name }}
+                        <span class='modal-location'>{{ speaker.location }}</span>
+                      </h4>
+                      <div class="modal-bio">
+                        <i>{{ speaker.bio }}</i>
+                      </div>
+                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+                      <div class='modal-link'>
+                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+                      </div>
+                      <h5>{{speaker.title}}</h5>
+                      {{ speaker.description }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class='sponsor-section section' id='sponsors'>
+          <div class='row'>
+            <div class='col-xs-12'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+              <h2>Sponsors</h2>
+              <h3 class='sponsors-subtitle'>A huge thanks to our amazing sponsors</h3>
+            </div>
+          </div>
+
+          <div class='sponsors'>
+            {% for sponsor_level in site.data.sponsors %}
+            {% assign level = sponsor_level[0] %}
+
+            <h4 class='sponsors-level-title'>
+              {% if level == 'platinum' %}
+              Platinum Sponsor
+              {% elsif level == 'special-thanks'%}
+              Special Thanks
+              {% else %}
+              {{ level }} Sponsors
+              {% endif %}
+            </h4>
+
+            <div class='sponsor-level {{ level }}-sponsors'>
+              {% for sponsor in sponsor_level[1] %}
+              <div class='sponsor-container'>
+                <div class='sponsor'>
+                  <a href='#' data-toggle="modal" data-target="#{{ level }}-modal-{{ forloop.index }}">
+
+                    <img class='img-responsive small-image' src="/assets/images/sponsors/{{ sponsor.name | slugify }}.png" />
+                  </a>
+
+                  <div class="modal fade" id="{{ level }}-modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <h4 class="modal-title">
+                            {{ sponsor.name }}
+                            <span class='modal-location'>{{ sponsor.location }}</span>
+                          </h4>
+                          <a href="{{ sponsor.website }}" target="_blank">
+                            <img class='img-responsive modal-image' src="/assets/images/sponsors/{{ sponsor.name | slugify }}.png" />
+                          </a>
+                          <div class='modal-link'>
+                            <a href="{{ sponsor.website }}" target="_blank">{{ sponsor.website }}</a>
+                          </div>
+                          {{ sponsor.bio }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class='row section'>
+          <div class='col-xs-12'>
+            <div class='news'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+
+              <h2>Latest News</h2>
+
+              {% assign latest_post = site.posts.first %}
+              <h3>{{ latest_post.date | date: '%B %d, %Y' }}</h3>
+
+              <div class='post'>
+                <h2>{{ latest_post.title }}</h2>
+                <p>
+                {{ latest_post.excerpt }}
+                </p>
+
+                <a class='read-more-button' href='{{ latest_post.url }}'>
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='row section'>
+          <div class='col-xs-12'>
+            <div class='section-divider'>
+              <hr />
+              <img src='/assets/images/ruby-hr.png' />
+            </div>
+
+            <!--       <div class='info'>
+              <h2>Location</h2>
+              <center><img class='img-responsive' src='https://i.ytimg.com/vi/QH2-TGUlwu4/hqdefault.jpg'></center>
+              </div> -->
+
+
+              <div class='info contact-info' id="contact">
+                <h2>Contact Us</h2>
+                <p>
+                Send us an email <a href='mailto:info@goruco.com'>info@goruco.com</a>
+                </p>
+                <p>
+                Follow us on <a href='https://twitter.com/goruco' target="_blank">Twitter</a>
+                </p>
+              </div>
+          </div>
+
+          <div class="col-xs-12">
+            <div class="row">
+              <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+                <div class="conference-updates">
+                  <h4>GET CONFERENCE UPDATES</h4>
+                  <form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" form.signup-form action="//goruco.us2.list-manage.com/subscribe/post?u=00945f50a161df14372a84a34&amp;id=cdf39163af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+
+                    <input class="signup required mail s3 ui-form-input-on-dark"  type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email Address">
+                    <input class="signup light-ui-btn" type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe">
+                    <div style="position: absolute; left: -5000px;">
+                      <input name="b_00945f50a161df14372a84a34_cdf39163af" tabindex="-1" type="text" value="">
+                    </div>
+                  </form>
+                  <p>
+                  Or get updates on <a href='https://twitter.com/goruco' target="_blank">Twitter</a>
+                  </p>
+                </div>
+              </div>
+
+              <!--div class='col-xs-12 col-sm-8'>
+                <div class="row conference-tickets">
+                  <p class="type-center">Your ticket includes breakfast, lunch, snacks,
+                  and a Boat Party, on a Boat.
+                  <br />
+                  Attendees are welcome to bring a guest to the party.</p>
+                  <div class="col-xs-6">
+                    <h3>Regular</h3>
+                    <div class="price-cost">$399</div>
+                    <div class="ticket-desc">If your employer is buying your
+                      ticket, or you identify as part of the majority demographics
+                      of the Ruby/Rails community, this ticket is for you!</div>
+                  </div>
+                  <div class="col-xs-6">
+                    <h3>Diversity <span><i class=""></i></span></h3>
+                    <div class="price-cost">$299</div>
+                    <div class="ticket-desc">If you identify as a minority in
+                      the Ruby/Rails community, this ticket is for you!
+                      Please enter DIVERSITY as your discount code.
+                      It is 75% of the regular ticket price in our attempt
+                      to recognize the gender wage gap in the US as of 2011.
+                      This discount made possible by
+                      <a href="http://www.stridenyc.com/" target="_blank">Stride</a> sponsorship.
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <a class='dark-ui-btn' href='https://ti.to/goruco/2016' target='_blank'>
+                      Buy Now
+                    </a>
+                  </div>
+                </div>
+              </div-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class='col-xs-12'>
+        <div class='section organizer-section'>
+          <h5>
+            Goruco 2016 is organized with <i class="fa fa-heart" aria-hidden="true"></i> by these happy & hardworking volunteers
+          </h5>
+          <div class='organizers'>
+          {% for organizer in site.data.organizers %}
+            <div class='organizer'>
+              <img src='/assets/images/organizers/{{ organizer.name | slugify }}.jpg'>
+              <div class='organizer-description'>
+                <h4>{{ organizer.name }}</h4>
+                <h6><a href='https://twitter.com/{{ organizer.twitter }}' target='_blank'>{{organizer.twitter }}</a></h6>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

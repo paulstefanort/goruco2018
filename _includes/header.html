@@ -1,0 +1,42 @@
+<header>
+  <div class='header'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-xs-12'>
+          <a href='/'>
+            <img src='/assets/images/ruby.png' />
+            <span class='title'>Goruco</span>
+          </a>
+        </div>
+
+        <div class='col-xs-9 pull-right hidden-xs'>
+          <div class='nav-links hidden-xs'>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#location">Location</a>
+            <!--a href="https://ti.to/goruco/2016" target="_blank">Tickets</a-->
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a>
+      <!--
+            <a href="">Location</a>
+            <a href="">Schedule</a> -->
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
+            <a href="/blog">News</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#contact">Contact</a>
+            <a href="http://videos.goruco.com/" target="_blank">Videos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='mobile-links'>
+    <div class='nav-links slider-nav visible-xs'>
+      <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a>
+      <a href="{% if page.url != '/index.html' %}/{% endif %}#location">Location</a>
+      <!--a href="https://ti.to/goruco/2016" target="_blank">Tickets</a-->
+      <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a>
+      <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
+      <a href="/blog">News</a>
+      <a href="{% if page.url != '/index.html' %}/{% endif %}#contact">Contact</a>
+      <a href="http://videos.goruco.com/" target="_blank">Videos</a>
+    </div>
+  </div>
+</header>
