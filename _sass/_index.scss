@@ -5,6 +5,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   background: $red no-repeat center 63% url("/assets/images/goruco-x.png");
   color: white;
   display: flex;
+  padding-bottom: 250px; /*Hack for demo purposes*/
   flex-direction: column;
   justify-content: flex-end;
   text-transform: uppercase;
