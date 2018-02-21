@@ -2,8 +2,11 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
 .announcement {
   height: 720px;
-  background: $red no-repeat center 63% url("/assets/images/goruco-x.png");
-  color: white;
+  // background: $red no-repeat center 63% url("/assets/images/goruco-x.png");
+  // background: #fff no-repeat center url("/assets/images/logos/blue_orange_without_text.png");
+  // background-size: 50% 50%;
+  background: #fff no-repeat center;
+  color: #333;
   display: flex;
   padding-bottom: 250px; /*Hack for demo purposes*/
   flex-direction: column;
