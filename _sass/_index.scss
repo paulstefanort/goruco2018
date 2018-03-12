@@ -1,14 +1,36 @@
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
+#actions {
+  margin-bottom: 150px;
+}
+
+.action {
+  text-align: center;
+  a {
+    border: solid 2px;
+    padding: .5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .action {
+    height: 50px;
+
+    &:first-child {
+      margin-top: 20px;
+    }
+  }
+}
+
 .announcement {
-  height: 720px;
+  height: 420px;
   // background: $red no-repeat center 63% url("/assets/images/goruco-x.png");
   // background: #fff no-repeat center url("/assets/images/logos/blue_orange_without_text.png");
   // background-size: 50% 50%;
   background: #fff no-repeat center;
   color: #333;
   display: flex;
-  padding-bottom: 250px; /*Hack for demo purposes*/
+  padding-bottom: 30px; /*Hack for demo purposes*/
   flex-direction: column;
   justify-content: flex-end;
   text-transform: uppercase;
