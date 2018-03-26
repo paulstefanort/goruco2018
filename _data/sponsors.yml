@@ -1,65 +1,64 @@
 gold:
-  - name: Code Climate
-    website: https://www.codeclimate.com/
-    location: New York, NY
-    bio: "Code Climate is automated code review for software development teams. Our open and extensible platform analyzes every commit for complexity, duplication, security, style, test coverage, and more –  so you can fix issues sooner and ship better code faster.
+#   - name: Code Climate
+#     website: https://www.codeclimate.com/
+#     location: New York, NY
+#     bio: "Code Climate is automated code review for software development teams. Our open and extensible platform analyzes every commit for complexity, duplication, security, style, test coverage, and more –  so you can fix issues sooner and ship better code faster.
 
-<br/><br/>Code Climate engineers build software that runs static analysis at scale, analyzing 2 billion lines of code daily across over 90,000 repositories. We use and improve the software we build every day to deliver analysis wherever you work – on premise, on the command line, in your editor, and in the cloud."
-  - name: Blue Apron
-    website: https://www.blueapron.com/
-    bio: "Blue Apron is the leading fresh ingredient and recipe delivery service in the United States.  By delivering step-by-step recipes and seasonal, pre-portioned ingredients sourced directly from farms and suppliers, Blue Apron makes it fun and easy to cook incredible meals at home.
+# <br/><br/>Code Climate engineers build software that runs static analysis at scale, analyzing 2 billion lines of code daily across over 90,000 repositories. We use and improve the software we build every day to deliver analysis wherever you work – on premise, on the command line, in your editor, and in the cloud."
+#   - name: Blue Apron
+#     website: https://www.blueapron.com/
+#     bio: "Blue Apron is the leading fresh ingredient and recipe delivery service in the United States.  By delivering step-by-step recipes and seasonal, pre-portioned ingredients sourced directly from farms and suppliers, Blue Apron makes it fun and easy to cook incredible meals at home.
 
-      <br/><br/>Our engineering team creates software to manage the forecasting, purchasing, preparation, and shipment of new fresh ingredients every week, delivering over 8 million meals nationwide monthly.
-Our software enables us to tackle complex supply chain and logistical challenges requiring purpose-built solutions and data analysis."
-    location: New York, NY
-  - name: Hightower
-    website: https://www.gethightower.com/
-    bio: Hightower is a modern technology platform for the commercial real estate industry. Our team of engineers, designers and product managers create tools that improve collaboration, provide deeper insights and create greater efficiency for owners, brokers and tenants.
-    location: New York, NY
+#       <br/><br/>Our engineering team creates software to manage the forecasting, purchasing, preparation, and shipment of new fresh ingredients every week, delivering over 8 million meals nationwide monthly.
+# Our software enables us to tackle complex supply chain and logistical challenges requiring purpose-built solutions and data analysis."
+#     location: New York, NY
+  # - name: Hightower
+  #   website: https://www.gethightower.com/
+  #   bio: Hightower is a modern technology platform for the commercial real estate industry. Our team of engineers, designers and product managers create tools that improve collaboration, provide deeper insights and create greater efficiency for owners, brokers and tenants.
+  #   location: New York, NY
   - name: Stride
     website: http://www.stridenyc.com/
     bio: Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.
     location: New York, NY
-  - name: XO Group
-    website: http://xogroupinc.com/
-    bio: We build applications that inspire, inform and cheer our users through our brands, The Knot, The Nest and The Bump as they move through life’s most amazing (and stressful!) milestones. From the marriage proposal to creating a home and starting a family together, we’re there for every step of the journey. We use Ruby, Rails, Swift, and many other languages and technologies with cleverness that is required at our scale and speed of feature development
-    location: New York, NY
+  # - name: XO Group
+  #   website: http://xogroupinc.com/
+  #   bio: We build applications that inspire, inform and cheer our users through our brands, The Knot, The Nest and The Bump as they move through life’s most amazing (and stressful!) milestones. From the marriage proposal to creating a home and starting a family together, we’re there for every step of the journey. We use Ruby, Rails, Swift, and many other languages and technologies with cleverness that is required at our scale and speed of feature development
+  #   location: New York, NY
 
-  - name: Kickback
-    website: https://kickback.com/
-    bio: "Kickback lets you play video games for money. Every month we power over 1,000,000 paid matches for hundreds of thousands of players globally. We're building the casino of the future, except instead of boring card games and slot machines, you're playing the games you already love for money, like Counter-Strike, Hearthstone and League of Legends.<br><br>
+  # - name: Kickback
+  #   website: https://kickback.com/
+  #   bio: "Kickback lets you play video games for money. Every month we power over 1,000,000 paid matches for hundreds of thousands of players globally. We're building the casino of the future, except instead of boring card games and slot machines, you're playing the games you already love for money, like Counter-Strike, Hearthstone and League of Legends.<br><br>
 
-      Login, put down some cash and pwn noobs. Who knows, you might even be a millionaire by next week."
-    location: San Francisco, CA
-silver:
-  - name: Dev Bootcamp
-    website: http://devbootcamp.com/
-    bio: Dev Bootcamp is the original, short-term, immersive software development program that transforms those new to coding into job-ready, full-stack web developers in a rigorous and supportive environment. Since 2012, we’ve helped more than 2,000 students learn to code and develop meaningful careers in the tech industry. Dev Bootcamp's New York campus also offers short-term coding workshops and a robust schedule of events focusing on the tech industry and tech culture.
-    location: New York, San Francisco, Chicago, San Diego, Seattle, Austin, DC
-  - name: Parachute Health
-    website: ""
-    bio: Parachute Health is bringing the proven e-Prescribe model to medical equipment. Working alongside the largest medical equipment suppliers and hospital systems in the US, Parachute Health is developing a cutting-edge communication platform that processes insurance orders with ease.
-    location: ""
-  - name: StreetEasy
-    website: http://streeteasy.com/
-    bio: StreetEasy® is New York City’s leading local real estate marketplace, providing accurate and comprehensive for-sale and for-rent listings from hundreds of real estate brokerages throughout New York City and the major NYC metropolitan area. We are a technology-driven group who constantly strives to use the best engineering tools available to build a cutting edge product, and we’re hiring. Be part of a focused, talented team that is creating fast, beautiful, and innovative tools to change how people buy and rent homes. Learn more about our open positions here.
-    location: New York, NY
-  - name: ShopKeep
-    website: http://shopkeep.com/
-    bio: Trusted by more than 23,000 independently owned businesses, ShopKeep provides point of sale hardware, cloud-based software and analytics and payment processing so small and medium-sized business owners can run a smarter business.
-    location: New York, NY
+  #     Login, put down some cash and pwn noobs. Who knows, you might even be a millionaire by next week."
+  #   location: San Francisco, CA
+# silver:
+  # - name: Dev Bootcamp
+  #   website: http://devbootcamp.com/
+  #   bio: Dev Bootcamp is the original, short-term, immersive software development program that transforms those new to coding into job-ready, full-stack web developers in a rigorous and supportive environment. Since 2012, we’ve helped more than 2,000 students learn to code and develop meaningful careers in the tech industry. Dev Bootcamp's New York campus also offers short-term coding workshops and a robust schedule of events focusing on the tech industry and tech culture.
+  #   location: New York, San Francisco, Chicago, San Diego, Seattle, Austin, DC
+  # - name: Parachute Health
+  #   website: ""
+  #   bio: Parachute Health is bringing the proven e-Prescribe model to medical equipment. Working alongside the largest medical equipment suppliers and hospital systems in the US, Parachute Health is developing a cutting-edge communication platform that processes insurance orders with ease.
+  #   location: ""
+  # - name: StreetEasy
+  #   website: http://streeteasy.com/
+  #   bio: StreetEasy® is New York City’s leading local real estate marketplace, providing accurate and comprehensive for-sale and for-rent listings from hundreds of real estate brokerages throughout New York City and the major NYC metropolitan area. We are a technology-driven group who constantly strives to use the best engineering tools available to build a cutting edge product, and we’re hiring. Be part of a focused, talented team that is creating fast, beautiful, and innovative tools to change how people buy and rent homes. Learn more about our open positions here.
+  #   location: New York, NY
+  # - name: ShopKeep
+  #   website: http://shopkeep.com/
+  #   bio: Trusted by more than 23,000 independently owned businesses, ShopKeep provides point of sale hardware, cloud-based software and analytics and payment processing so small and medium-sized business owners can run a smarter business.
+  #   location: New York, NY
 
 bronze:
-  - name: FIS
-    website: http://www.fisglobal.com/
-    bio: Advanced Technology serves as a technology innovation incubator for the FIS’ Institutional and Wholesale business. We work with companies whose unique challenges require creative thinking and the clever uses of technology. We help our media and internet clients bring the latest technology and thinking to life and then apply these learnings to our financial services clients to accelerate their ideas from inspiration to production. Learn more at www.fisglobal.com/advanced-technology.
-    location: Jacksonville, FL
-
+  # - name: FIS
+  #   website: http://www.fisglobal.com/
+  #   bio: Advanced Technology serves as a technology innovation incubator for the FIS’ Institutional and Wholesale business. We work with companies whose unique challenges require creative thinking and the clever uses of technology. We help our media and internet clients bring the latest technology and thinking to life and then apply these learnings to our financial services clients to accelerate their ideas from inspiration to production. Learn more at www.fisglobal.com/advanced-technology.
+  #   location: Jacksonville, FL
   - name: WyeWorks
     website: https://wyeworks.com/
     bio: WyeWorks is the best way to expand your Rails team. We act as if we're part of your company, adopting your process and suggesting best practices. We are Agile, we show progress every day. We do code reviews and pair programming because quality is taken to heart. Our happy clients are our best credentials.
     location: Montevideo, Uruguay
-special-thanks:
-  - name: Code Miner
-    website: http://www.codeminer42.com/
-    bio: Codeminer 42 is a Brazilian Offshore Outsourcing Boutique with 5 years of experience in Ruby on Rails projects, including a staff specialized in Javascript related tech such as React. We have 6 offices around the country, 60 developers, clients in Brazil and the USA such as Riot Games and GoDaddy. If you have Agile teams and you want to accelerate your delivery pace, give us a call.
+# special-thanks:
+#   - name: Code Miner
+#     website: http://www.codeminer42.com/
+#     bio: Codeminer 42 is a Brazilian Offshore Outsourcing Boutique with 5 years of experience in Ruby on Rails projects, including a staff specialized in Javascript related tech such as React. We have 6 offices around the country, 60 developers, clients in Brazil and the USA such as Riot Games and GoDaddy. If you have Agile teams and you want to accelerate your delivery pace, give us a call.
