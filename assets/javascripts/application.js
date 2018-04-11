@@ -1,8 +1,10 @@
 $(document).ready(function(){
-  $('.slider-nav').slick({
+  $('.slick-photos').slick({
     slidesToShow: 3,
-    slidesToScroll: 2,
-    arrows: false,
-    variableWidth: true
+    slidesToScroll: 1,
+    arrows: true,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true
   });
 });
