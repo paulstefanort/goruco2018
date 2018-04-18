@@ -22,7 +22,7 @@ gold:
     location: New York, NY
   # - name: XO Group
   #   website: http://xogroupinc.com/
-  #   bio: We build applications that inspire, inform and cheer our users through our brands, The Knot, The Nest and The Bump as they move through life’s most amazing (and stressful!) milestones. From the marriage proposal to creating a home and starting a family together, we’re there for every step of the journey. We use Ruby, Rails, Swift, and many other languages and technologies with cleverness that is required at our scale and speed of feature development
+  #   bio: XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations.
   #   location: New York, NY
 
   # - name: Kickback
@@ -32,10 +32,10 @@ gold:
   #     Login, put down some cash and pwn noobs. Who knows, you might even be a millionaire by next week."
   #   location: San Francisco, CA
 # silver:
-  # - name: Dev Bootcamp
-  #   website: http://devbootcamp.com/
-  #   bio: Dev Bootcamp is the original, short-term, immersive software development program that transforms those new to coding into job-ready, full-stack web developers in a rigorous and supportive environment. Since 2012, we’ve helped more than 2,000 students learn to code and develop meaningful careers in the tech industry. Dev Bootcamp's New York campus also offers short-term coding workshops and a robust schedule of events focusing on the tech industry and tech culture.
-  #   location: New York, San Francisco, Chicago, San Diego, Seattle, Austin, DC
+#   - name: Def Method
+#     website: http://defmethod.com/
+#     bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
+#     location: New York, NY
   # - name: Parachute Health
   #   website: ""
   #   bio: Parachute Health is bringing the proven e-Prescribe model to medical equipment. Working alongside the largest medical equipment suppliers and hospital systems in the US, Parachute Health is developing a cutting-edge communication platform that processes insurance orders with ease.
@@ -50,10 +50,6 @@ gold:
   #   location: New York, NY
 
 bronze:
-  # - name: FIS
-  #   website: http://www.fisglobal.com/
-  #   bio: Advanced Technology serves as a technology innovation incubator for the FIS’ Institutional and Wholesale business. We work with companies whose unique challenges require creative thinking and the clever uses of technology. We help our media and internet clients bring the latest technology and thinking to life and then apply these learnings to our financial services clients to accelerate their ideas from inspiration to production. Learn more at www.fisglobal.com/advanced-technology.
-  #   location: Jacksonville, FL
   - name: WyeWorks
     website: https://wyeworks.com/
     bio: WyeWorks is the best way to expand your Rails team. We act as if we're part of your company, adopting your process and suggesting best practices. We are Agile, we show progress every day. We do code reviews and pair programming because quality is taken to heart. Our happy clients are our best credentials.
