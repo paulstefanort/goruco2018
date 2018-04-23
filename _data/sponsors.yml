@@ -20,10 +20,11 @@ gold:
     website: http://www.stridenyc.com/
     bio: Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.
     location: New York, NY
-  # - name: XO Group
-  #   website: http://xogroupinc.com/
-  #   bio: XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations.
-  #   location: New York, NY
+  - name: XO Group
+    css_class: xogroupinc
+    website: http://xogroupinc.com/
+    bio: XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations.
+    location: New York, NY
 
   # - name: Kickback
   #   website: https://kickback.com/
@@ -31,11 +32,12 @@ gold:
 
   #     Login, put down some cash and pwn noobs. Who knows, you might even be a millionaire by next week."
   #   location: San Francisco, CA
-# silver:
-#   - name: Def Method
-#     website: http://defmethod.com/
-#     bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
-#     location: New York, NY
+silver:
+  - name: Def Method
+    css_class: defmethod
+    website: http://defmethod.com/
+    bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
+    location: New York, NY
   # - name: Parachute Health
   #   website: ""
   #   bio: Parachute Health is bringing the proven e-Prescribe model to medical equipment. Working alongside the largest medical equipment suppliers and hospital systems in the US, Parachute Health is developing a cutting-edge communication platform that processes insurance orders with ease.

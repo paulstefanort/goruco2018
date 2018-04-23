@@ -1,72 +1,72 @@
-- name: Bryan Helmkamp
-  twitter: "@brynary"
+- name: Ruby Halvorson
+  twitter: "@twitter"
   location: New York, NY
-  title: Code Quality Lessons Learned
-  description: "We started Code Climate with a simple hypothesis: static analysis can help developers ship better code, faster. Five years later, we analyze over 70,000 repositories each day spanning a wide variety of programming languages, and along the way we've learned a lot about code quality itself: what it means, why you want it, how you get it,and more. This talk will cover some of the more surprising insights, including what makes a code metric valuable, when unmaintainable code may be preferable, and the number one thing that prevents most developers from maintaining quality code over time."
-  bio: Bryan Helmkamp is the founder and CEO of Code Climate, where he helps software development teams improve their code quality with static analysis. In New York, he was CTO at Efficiency 2.0, a company focused on using science to help people lower the energy use, and also an engineer at Gilt Groupe. He has given popular talks on software engineering principles and practices around the world. Bryan co-authored the book Service Oriented Design with Ruby and also the RSpec Book.
-- name: Nadia Odunayo
-  twitter: "@nodunayo"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Alona Reichert
+  twitter: "@twitter"
   location: London, England
-  title: "The Guest: A Guide To Code Hospitality"
-  description: You were living alone in the town of Ruby-on-Rails until you decided to open up your spare room to guests. Now your first visitor has booked in. Her arrival is imminent. How do you prepare? How can you make sure she has a great visit? Let’s explore the art of code hospitality — working on codebases in a way that respects your teammates and provides for their needs. By working hospitably, we can facilitate team productivity and help new members quickly feel at home.
-  bio: Nadia co-founded Ignition Works in order to find fun and sustainable ways to build worthwhile software products. She has taught good engineering practices through pair programming at Pivotal Labs and on their Cloud Foundry team. She originally learnt to code at Makers Academy and she runs the Ruby Book Club podcast in her spare time.
-- name: Aditya Mukerjee
-  twitter: "@chimeracoder"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Bethanie Kuvalis
+  twitter: "@twitter"
   location: New York, NY
-  title: Symmetric API Testing
-  description: When implementing REST API servers and clients, testing is critical. Symmetric API testing is a design pattern that ensures compatibility between client and server with transparent tests. Testing APIs symmetrically reduces build times and code complexity, while simultaneously improving API stability.
-  bio: Aditya is an engineer at Stripe on the Risk team, tased in New York City. He studied statistics at Columbia and computer science at Cornell, and has been writing Go professionally for the past four years. When not defending users against online fraudsters, he spends his free time playing German-style board games and listening to embarrassing music.
-- name: Fabio Akita
-  twitter: "@akitaonrails"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Lori Thompson
+  twitter: "@twitter"
   location: Brazil, NY
-  title: Pipe Operator for Ruby
-  description: Elixir is one modern language that is introducing many Rubyists to the world of highly scalable, highly distributed, functional programming-based programming. In a more narrow scope, one language feature that many people liked is the now famous Pipe Operator "|>". There is nothing like this in Ruby. But could there be such an operator? And if it could be done, would it be useful? I started a pet project called "Chainable Methods" to address just that.
-  bio: Co-Founder of Codeminer 42 America LLC, a Brazilian based and USA incorporated Rails and New Tech offshore outsourcing boutique. Also founder and organizer of Rubyconf Brazil together with Locaweb since 2008. Blog at AkitaOnRails.com as a Ruby Activist since 2006.
-- name: Will Leinweber
-  twitter: "@leinweber"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Andreas Gutmann
+  twitter: "@twitter"
   location: San Francisco, CA
-  title: Introducing the Crystal Programming Language
-  description: Developer happiness is what brought me to Ruby in the first place. And of all the new compiled languages, Crystal is the only one that shares this value. The syntax and idioms are entirely Ruby inspired. Although Crystal looks very similar to Ruby, there are big differences between the two. Crystal is statically typed and dispatched. While there are no runtime dynamic features, the compile-time macros solve many of the same problems. In this session, we’ll take a close look at these differences as well as the similarities, and what Ruby developers can learn from this exciting language.
-  bio: Will doesn't really want to think about how long he's been working with Ruby. He is currently working on horizontally scalable Postgres at Citus Data, and before that was a principal member of the Heroku Postgres team. Please don't try to right-click and steal the source for his WebSite bitfission.com.
-- name: Danielle Adams
-  twitter: "@adamzdanielle"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Horacio Flatley
+  twitter: "@twitter"
   location: New York, NY
-  title: "Ruby Racing: Challenging Ruby Methods"
-  description: Ruby is widely-used and prides itself on "simplicity and productivity". But what is happening under the hood of our favorite programming language? Are there better, faster, or stronger ways to implement these methods? I'm going to take a deep, yet brief, dive into testing and optimizing some of Ruby's most popularly convenient methods.
-  bio: Danielle is a full-stack software engineer working at Blue Apron on their Warehouse Management System software. She mostly works with Ember.js, but she is always happy when she's able to jump into the back-end and work on the API, built with Ruby on Rails. Having been a professional developer for just under 2 years, she has been coding since age 12. In her free time, she enjoys live music, food, and playing with puppies.
-- name: Andrew Faraday
-  twitter: "@MarmiteJunction"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Dennis Keeling
+  twitter: "@twitter"
   location: Surrey, England
-  title: Just A Ruby Minute
-  description: Just a Minute the popular classic British gameshow format with some real coding and technology topics. The rules of the game are simple, the results are hilarious, and who knows, you might even learn something new! Come join us to see some of your favorite speakers take the challenge to speak without hesitation, repetition or deviation for one minute.
-  bio: Andrew is a Ruby developer, presenter, musician and kidney donor working in Surrey, England. His background includes a music degree, 5 years of radio presenting/production and panel game hosting and a long history of combining code and music to explore the artistic capabilities of programming. His professional experience includes a lot of integration with large legacy databases.
-- name: Kinsey Ann Durham
-  twitter: "@KinseyAnnDurham"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Dovie Jones
+  twitter: "@twitter"
   location: Denver, CO
-  title: "Impactful Refactors: Refactoring for Readability"
-  description: "We have no problem justifying a refactoring effort when it improves performance or eliminates a code smell. What if I told you there's a way your refactoring could be even more impactful? One of the most costly and time-consuming things we do is on boarding. It takes an incredible amount of effort to bring a developer up to speed on a new codebase. In this talk, we’ll see three real-world readability refactors, discuss how you can apply these techniques for the benefit of your current (and future) team members, and how we can continue to program with empathy in mind."
-  bio: Kinsey is a software engineer at GoSpotCheck in Denver, Colorado. She co-founded Kubmo, a non-profit dedicated to building technology curriculum for women's empowerment programs around the world. She is the chair of the BridgeFoundry board and is obsessed with dogs, especially her dog, Harleigh.
-- name: Rocio Delgado
-  twitter: "@rokkzy"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Charles Oberbrunner
+  twitter: "@twitter"
   location: New York, NY
-  title: Database performance at scale for RoR applications
-  description: "We love Ruby on Rails because we can get a working prototype up and running in a very short period of time. It follows coding conventions that make it simple to go from one developer to the next, however, when the application scales to a certain point, there are some performance penalties that come from the auto-magic of Active Record. I intend to show the common pitfalls for performance degradation, monitoring tools to help identify problems and common solutions including MySQL indexing optimization, all this based on my current experience with one of the biggest RoR apps working at GitHub."
-  bio: Engineer at GitHub, previously GE and founding engineer @ WorkMarket. I've been a backend engineer for 11+ years, from Java land (public static void main) to RoR. Interested in performance, scalability, resilience, distributed systems and databases. Yoga, dancing & karaoke junior performer. Living in Brooklyn via México.
-- name: Ross Kaffenberger
-  twitter: "@rossta"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Pam Gerhold
+  twitter: "@twitter"
   location: New York, NY
-  title: Enumerable's Ugly Cousin
-  description: "Everyone loves Ruby's Enumerable module. What about Enumerator? Many of us don't what Enumerator is or why it's useful. It's time to change that. We'll challenge conventions and (finally?) understand why Enumerator is important while unveiling the 'magic' of how it works."
-  bio: I discovered my passion for programming in an inner-city middle school in Houston, Texas where I was a first year teacher with Teach for America. Armed with a Lego Mindstorms kit, I started an after-school robotics club and eventually, with a lot of hard work, my students marched all the way to the Texas Botball championship. Later on, I realized programming was something I wanted to do full-time. I still miss teaching so don't be surprised if I have to resist the urge to issue a few detentions.
-- name: Aja Hammerly
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Stella Langworth
   location: Seattle, WA
-  twitter: "@thagomizer_rb"
-  title: Exploring Big Data with rubygems.org Download Data
-  description: "Many people strive to be armchair data scientists. Google BigQuery provides an easy way for anyone with basic SQL knowledge to dig into large data sets and just explore. Using the rubygems.org download data we'll see how the Ruby and SQL you already know can help you parse, upload, and analyze multiple gigabytes of data quickly and easily without any previous Big Data experience."
-  bio: Aja lives in Seattle where she is a Developer Advocate at Google and a member of the Seattle Ruby Brigade. Her favorite languages are Ruby and Prolog. She also loves working with large piles of data. In her free time she enjoys skiing, cooking, knitting, and long coding sessions on the beach.
-- name: Adam Cuppy
-  twitter: "@AdamCuppy"
+  twitter: "@twitter"
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
+- name: Karolyn Mante
+  twitter: "@twitter"
   location: San Diego, CA
-  title: Cult(ure)
-  description: "As a team leader, the line between company culture and a dogmatic cult is thin. Embracing individuality, yet finding alignment (as a collective) is tough. Understanding what defines one over another is critical so everyone can bring 100% of themselves to table. If you're a member of a team, leader of a team or building a team, you're going to know five key components to assess, support and foster a 'culture of diverse talent' and prevent a 'cult of conformity.'"
-  bio: Master of Smile Generation. Ambassador of Company Culture. Tech Entreprenur. Speaker/Educator. One-time Professional Actor @osfashland. Husband. Chief Zealous Officer @CodingZeal
+  title: Great Title
+  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
+  bio: Speak Name is from Wakanda
