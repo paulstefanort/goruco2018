@@ -16,7 +16,9 @@
             <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a>
             <a href="{% if page.url != '/index.html' %}/{% endif %}#location">Location</a>
             <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a>
-            <!-- <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a> -->
+            {% if page.url == '/beta' %}
+              <a href="{% if page.url != '/beta' %}/{% endif %}#speakers">Speakers</a>
+            {% endif %}
             <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
             <a href="{% if page.url != '/index.html' %}/{% endif %}#organizers">Organizers</a>
             <!-- <a href="/blog">News</a> -->
@@ -34,7 +36,9 @@
       <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a>
       <a href="{% if page.url != '/index.html' %}/{% endif %}#location">Location</a>
       <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a>
-      <!-- <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a> -->
+      {% if page.url == '/beta' %}
+        <a href="{% if page.url != '/beta' %}/{% endif %}#speakers">Speakers</a>
+      {% endif %}
       <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
       <a href="{% if page.url != '/index.html' %}/{% endif %}#organizers">Organizers</a>
       <!-- <a href="/blog">News</a> -->

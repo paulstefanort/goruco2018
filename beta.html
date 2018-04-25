@@ -108,7 +108,7 @@ layout: default
             {% for speaker in site.data.speakers %}
             <div class='speaker'>
               <!-- <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" /> -->
-              <img class='img-responsive small-image' src="https://placem.at/people?w=320&h=180&txt=0&random={{forloop.index}}" />
+              <img class='img-responsive small-image' src="https://placem.at/people?w=400&h=225&txt=0&random={{forloop.index}}" />
               <div class='speaker-info'>
                 <h4>{{ speaker.name }}</h4>
                 <h5>{{speaker.title}}</h5>
@@ -120,7 +120,7 @@ layout: default
               <a href='#' class='read-more' data-toggle="modal" data-target="#modal-{{ forloop.index }}">Read More</a>
               </p>
 
-              <div class="modal fade" id="modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="speaker-modal modal fade" id="modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-body">
@@ -132,7 +132,7 @@ layout: default
                         <i>{{ speaker.bio }}</i>
                       </div>
                       <!-- <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" /> -->
-                      <img class='modal-image img-responsive' src="https://placem.at/people?w=320&h=180&txt=0&random={{forloop.index}}" />
+                      <img class='modal-image img-responsive' src="https://placem.at/people?w=400&h=225&txt=0&random={{forloop.index}}" />
                       <div class='modal-link'>
                         <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
                       </div>
