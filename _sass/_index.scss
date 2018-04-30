@@ -18,6 +18,19 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   margin: 0 auto;
 }
 
+.alert-info {
+  font-style: italic;
+}
+
+.sponsor-prospectus-holder {
+  font-weight: bold;
+  text-align: center;
+
+  a {
+    color: #fff !important;
+  }
+}
+
 #photos {
   position: relative;
 
@@ -30,11 +43,6 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
     margin: 40px 0 20px 0;
   }
 
-  // .slick-center .photo {
-  //   height: 120%;
-  //   width: 120%;
-  // }
-
   .photo {
     height: 99%;
     width: 99%;
@@ -42,21 +50,11 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 
 #actions {
-  margin-bottom: 150px;
+  margin-bottom: 70px;
 }
 
 .action {
   text-align: center;
-  a {
-    border: solid 2px;
-    padding: .5rem;
-
-    &:hover {
-      background-color: #333;
-      border-color: #333;
-      color: #fff;
-    }
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -70,14 +68,10 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 
 .announcement {
-  height: 420px;
-  // background: $red no-repeat center 63% url("/assets/images/goruco-x.png");
-  // background: #fff no-repeat center url("/assets/images/logos/blue_orange_without_text.png");
-  // background-size: 50% 50%;
+  height: 320px;
   background: #fff no-repeat center;
   color: #333;
   display: flex;
-  padding-bottom: 30px; /*Hack for demo purposes*/
   flex-direction: column;
   justify-content: flex-end;
   text-transform: uppercase;
