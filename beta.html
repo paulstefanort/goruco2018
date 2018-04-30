@@ -45,7 +45,7 @@ layout: default
                     <span class='duration'>{{ schedule.duration }} MIN</span>
                   </div>
 
-                  <div class="right">
+                  <div class="right {{schedule.css_class}}">
                     <div class="title">{{ schedule.title }} {% if schedule.icon %}<img class="icon" src='/assets/images/{{schedule.icon}}.png' />{% endif %}</div>
                     <div class='name'>{{ schedule.name }}</div>
                   </div>

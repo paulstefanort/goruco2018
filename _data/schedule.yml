@@ -39,6 +39,7 @@
   duration: 60
   icon: lunchbowl
   milestone: true
+  css_class: lunch
 
 - title: "The Impermanence of Software"
   name: Andy Croll
