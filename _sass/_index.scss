@@ -32,6 +32,8 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 
 #photos {
+  margin-top: 60px;
+  padding: 0 5px 0 17px;
   position: relative;
 
   > div {

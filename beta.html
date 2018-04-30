@@ -22,20 +22,6 @@ layout: default
 </div>
 
 <div class='container section-container'>
-  <div class='row' id='photos'>
-    <div class='section-divider'>
-      <hr />
-      <img src='/assets/images/ruby-hr.png' />
-    </div>
-    <h2> Photos </h2>
-    <div class='slick-photos'>
-      {% for photo in site.data.photos %}
-        <div>
-          <img src=/assets/images/photos/{{photo.filename}} class='photo'/>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
   <div class='row'>
     <div class='col-xs-12'>
       <div class='content-wrapper'>
@@ -67,6 +53,21 @@ layout: default
               </li>
               {% endfor %}
             </ul>
+          </div>
+        </div>
+
+        <div class='row' id='photos'>
+          <div class='section-divider'>
+            <hr />
+            <img src='/assets/images/ruby-hr.png' />
+          </div>
+          <h2> Photos </h2>
+          <div class='slick-photos'>
+            {% for photo in site.data.photos %}
+              <div>
+                <img src=/assets/images/photos/{{photo.filename}} class='photo'/>
+              </div>
+            {% endfor %}
           </div>
         </div>
 
