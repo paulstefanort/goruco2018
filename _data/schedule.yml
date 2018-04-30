@@ -3,81 +3,75 @@
   time: 9:00 AM
   duration: 60
 
-- title: "Keynote: Code Quality Lessons Learned"
-  name: Bryan Helmkamp (NY)
+- title: "Openning Keynote: The Good Bad Bug: Fail Your Way to Better Code"
+  name: Jess Rudder
   time: 10:00 AM
   duration: 30
+  milestone: true
 
-- title: "The Guest: A Guide To Code Hospitality"
-  name: Nadia Odunayo (UK)
+- title: "Evented Autonomous Services in Ruby"
+  name: Scott Bellware
   time: 10:40 AM
   duration: 30
 
-- title: "Symmetric API Testing"
-  name: Aditya Mukerjee (NY)
-  time: 11:35 AM
+- title: "Locking It Down with Ruby & Lockfiles"
+  name: Danielle Adams
+  time: 11:20 AM
+  duration: 10
+
+- title: "Running Jobs at Scale"
+  name: Kir Shatrov
+  time: 11:40 AM
+  duration: 10
+
+- title: "Encryption Pitfalls and Workarounds"
+  name: Melissa Wahnish
+  time: 12:00 PM
+  duration: 10
+
+- title: "The Practical Guide to Building an Apprenticeship"
+  name: Megan Tiu
+  time: 12:20 PM
   duration: 30
 
-- title: "Pipe Operator for Ruby"
-  name: Fabio Akita (Brazil)
-  time: 12:15 AM
-  duration: 10
-
-- title: "Introducing the Crystal Programming Language"
-  name: Will Leinweber (SF)
-  time: 12:20 AM
-  duration: 10
-
-- title: "Ruby Racing: Challenging Ruby Methods"
-  name: Danielle Adams (NY)
-  time: 12:40 AM
-  duration: 10
-
-- title: "Lunch "
-  name: Dig Inn
-  time: 12:55 AM
+- title: "Lunch"
+  time: 1:00 PM
   duration: 60
   icon: lunchbowl
   milestone: true
 
-- title: "Just a Ruby Minute"
-  name: Andrew Faraday (UK)
-  time: 02:20 PM
+- title: "The Impermanence of Software"
+  name: Andy Croll
+  time: 02:00 PM
   duration: 30
 
-- title: "Impactful Refactors: Refactoring for Readability"
-  name: Kinsey Ann Durham (Denver)
-  time: 3:00 PM
-  duration: 10
-
-- title: "Database performance at scale for RoR and MySQL"
-  name: Rocio Delgado (NY)
-  time: 3:15 PM
-  duration: 10
-
-- title: "Enumerable’s Ugly Cousin"
-  name: Ross Kaffenberger (NY)
-  time: 3:30 PM
-  duration: 10
-
-- title: "Big Data with rubygems.org Download Data"
-  name: Aja Hammerly (Seattle)
-  time: 4:10 PM
+- title: "I've Made a Huge Mistake: We Did Services All Wrong"
+  name: Kelly Sutton
+  time: 2:40 PM
   duration: 30
 
-- title: "Keynote: Cult(ure)"
-  name: Adam Cuppy (San Diego)
-  time: 4:50 PM
+- title: "Writing Ruby Like it's 2018"
+  name: Joe Leo
+  time: 3:20 PM
+  duration: 10
+
+- title: "Building Efficient APIs with JSON-API"
+  name: Rushaine McBean
+  time: 3:40 PM
+  duration: 10
+
+- title: "The Twelve-Factor Function"
+  name: Desmond Rawls
+  time: 4:00 PM
+  duration: 10
+
+- title: "After Death"
+  name: Sam Phippen
+  time: 4:20 PM
   duration: 30
 
-- title: "After Party Boarding "
-  name: Entertainment Cruises - Chelsea Piers - Pier 61, West 23rd Street
-  time: 6:00 PM
-  duration: 45
-  icon: boat
+- title: "Closing Keynote: Analyzing and Reducing Ruby Memory Usage"
+  name: Aaron Patterson
+  time: 5:00 PM
+  duration: 30
   milestone: true
-
-- title: "After Party Set Sail"
-  name: Ahoy Mateys!
-  time: 6:45 PM
-  duration: 135
