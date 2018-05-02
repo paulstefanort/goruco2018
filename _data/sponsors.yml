@@ -26,29 +26,16 @@ gold:
     bio: XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations.
     location: New York, NY
 
-  # - name: Kickback
-  #   website: https://kickback.com/
-  #   bio: "Kickback lets you play video games for money. Every month we power over 1,000,000 paid matches for hundreds of thousands of players globally. We're building the casino of the future, except instead of boring card games and slot machines, you're playing the games you already love for money, like Counter-Strike, Hearthstone and League of Legends.<br><br>
-
-  #     Login, put down some cash and pwn noobs. Who knows, you might even be a millionaire by next week."
-  #   location: San Francisco, CA
 silver:
   - name: Def Method
     css_class: defmethod
     website: http://defmethod.com/
     bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
     location: New York, NY
-  # - name: Parachute Health
-  #   website: ""
-  #   bio: Parachute Health is bringing the proven e-Prescribe model to medical equipment. Working alongside the largest medical equipment suppliers and hospital systems in the US, Parachute Health is developing a cutting-edge communication platform that processes insurance orders with ease.
-  #   location: ""
-  # - name: StreetEasy
-  #   website: http://streeteasy.com/
-  #   bio: StreetEasy® is New York City’s leading local real estate marketplace, providing accurate and comprehensive for-sale and for-rent listings from hundreds of real estate brokerages throughout New York City and the major NYC metropolitan area. We are a technology-driven group who constantly strives to use the best engineering tools available to build a cutting edge product, and we’re hiring. Be part of a focused, talented team that is creating fast, beautiful, and innovative tools to change how people buy and rent homes. Learn more about our open positions here.
-  #   location: New York, NY
-  # - name: ShopKeep
-  #   website: http://shopkeep.com/
-  #   bio: Trusted by more than 23,000 independently owned businesses, ShopKeep provides point of sale hardware, cloud-based software and analytics and payment processing so small and medium-sized business owners can run a smarter business.
+  # - name: Just Works
+  #   css_class: justworks
+  #   website: http://www.justworks.com/
+  #   bio: Payroll, benefits, HR, and compliance — all in one place. Justworks simplifies your business's back office complexities, so you can work fearlessly.
   #   location: New York, NY
 
 bronze:

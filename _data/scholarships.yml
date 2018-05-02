@@ -1,0 +1,10 @@
+- name: Def Method
+  css_class: defmethod
+  website: http://defmethod.com/
+  bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
+  location: New York, NY
+- name: Optoro
+  css_class: optoro
+  website: http://www.optoro.com/
+  bio: We’re a technology company building software that reimagines how retailers work & how consumers buy. Our teams move fluidly and synchronously to dig into real-world challenges, guided by iterative design, agile development, and an ambitious product vision.
+  location: Washington, DC

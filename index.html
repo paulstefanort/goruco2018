@@ -204,6 +204,48 @@ layout: default
             </div>
             {% endfor %}
           </div>
+
+          <div class='sponsors' id='scholarship-sponsors'>
+            <div class='row'>
+              <div class='col-xs-12'>
+                {% include section-divider.html %}
+                <h2> Scholarship Sponsors </h2>
+                {% for sponsor in site.data.scholarships %}
+
+                <div class='scholarship'>
+                  <div class='sponsor-container'>
+                    <div class='sponsor {{sponsor.css_class}}-container'>
+                      <a href='#' data-toggle="modal" data-target="#scholarship-modal-{{ forloop.index }}">
+
+                        <img class='img-responsive small-image {{sponsor.css_class}}' src="/assets/images/sponsors/{{ sponsor.name | slugify }}.png" />
+                      </a>
+
+                      <div class="modal fade" id="scholarship-modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              <h4 class="modal-title">
+                                {{ sponsor.name }}
+                                <span class='modal-location'>{{ sponsor.location }}</span>
+                              </h4>
+                              <a href="{{ sponsor.website }}" class='{{sponsor.css_class}}-container' target="_blank">
+                                <img class='img-responsive modal-image {{sponsor.css_class}}' src="/assets/images/sponsors/{{ sponsor.name | slugify }}.png" />
+                              </a>
+                              <div class='modal-link'>
+                                <a href="{{ sponsor.website }}" target="_blank">{{ sponsor.website }}</a>
+                              </div>
+                              {{ sponsor.bio }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class='row section hide'>
