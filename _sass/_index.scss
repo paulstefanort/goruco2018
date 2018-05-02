@@ -16,6 +16,10 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   // margin: 20px 40px;
 }
 
+.modal-image {
+  max-height: 300px;
+}
+
 .sponsor.optoro-container, .optoro-container .modal-image {
   background-color: #373737;
 }
@@ -28,6 +32,10 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .scholarship {
   display: inline-block;
   margin-right: 40px;
+}
+
+.scholarship-button{
+  margin: 10px 0;
 }
 
 .small-image.defmethod {
@@ -44,13 +52,17 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   font-style: italic;
 }
 
-.sponsor-prospectus-holder {
+.sponsor-prospectus-holder, .scholarship-button-holder {
   font-weight: bold;
   text-align: center;
 
   a {
     color: #fff !important;
   }
+}
+
+.scholarship-info-holder {
+  margin-bottom: 20px;
 }
 
 .lunch {
