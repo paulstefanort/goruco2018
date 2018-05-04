@@ -95,7 +95,9 @@ layout: default
             {% for speaker in site.data.speakers %}
             <div class='speaker'>
               <div class='img-holder'>
-                <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+                <a href="#" data-toggle="modal" data-target="#keynote-modal-{{ forloop.index }}">
+                  <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg"  />
+                </a>
               </div>
               <div class='speaker-info'>
                 <h4>{{ speaker.name }}</h4>
