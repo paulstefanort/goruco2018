@@ -156,6 +156,11 @@ footer {
   a {
     padding: 0 10px
   }
+
+  @include xs-screen {
+    height: 70px;
+    text-align: center;
+  }
 }
 
 .code-of-conduct {
