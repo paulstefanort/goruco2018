@@ -32,11 +32,11 @@ silver:
     website: http://defmethod.com/
     bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
     location: New York, NY
-  # - name: Just Works
-  #   css_class: justworks
-  #   website: http://www.justworks.com/
-  #   bio: Payroll, benefits, HR, and compliance — all in one place. Justworks simplifies your business's back office complexities, so you can work fearlessly.
-  #   location: New York, NY
+  - name: Just Works
+    css_class: justworks
+    website: http://www.justworks.com/
+    bio: Payroll, benefits, HR, and compliance — all in one place. Justworks simplifies your business's back office complexities, so you can work fearlessly.
+    location: New York, NY
 
 bronze:
   - name: WyeWorks

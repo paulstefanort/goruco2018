@@ -25,6 +25,116 @@ layout: default
   <div class='row'>
     <div class='col-xs-12'>
       <div class='content-wrapper'>
+        <div class='speaker-section section' id="speakers">
+          <div class='row'>
+            <div class='col-xs-12'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+              <h2>Keynotes</h2>
+            </div>
+          </div>
+
+          <div class='speakers' id='keynotes'>
+            {% for speaker in site.data.keynotes %}
+            <div class='speaker col-md-6'>
+              <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+              <div class='speaker-info'>
+                <h4>{{ speaker.name }}</h4>
+                <h5>{{speaker.title}}</h5>
+                <h6>{{ speaker.location }}</h6>
+                <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+              </div>
+              <p class='excerpt'>
+              {{ speaker.description | truncatewords: 25 }}
+              <a href='#' class='read-more' data-toggle="modal" data-target="#modal-{{ forloop.index }}">Read More</a>
+              </p>
+
+              <div class="speaker-modal modal fade" id="modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h4 class="modal-title">
+                        {{ speaker.name }}
+                        <span class='modal-location'>{{ speaker.location }}</span>
+                      </h4>
+                      <div class="modal-bio">
+                        <i>{{ speaker.bio }}</i>
+                      </div>
+                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+
+                      <div class='modal-link'>
+                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+                      </div>
+                      <h5>{{speaker.title}}</h5>
+                      {{ speaker.description }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+
+        <div class='speaker-section section'>
+          <div class='row'>
+            <div class='col-xs-12'>
+              <div class='section-divider'>
+                <hr />
+                <img src='/assets/images/ruby-hr.png' />
+              </div>
+              <h2>Speakers</h2>
+            </div>
+          </div>
+
+          <div class='speakers' id='speakers-non-keynote'>
+            {% for speaker in site.data.speakers %}
+            <div class='speaker'>
+              <div class='img-holder'>
+                <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+              </div>
+              <div class='speaker-info'>
+                <h4>{{ speaker.name }}</h4>
+                <h5>{{speaker.title}}</h5>
+                <h6>{{ speaker.location }}</h6>
+                <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+              </div>
+              <p class='excerpt'>
+              {{ speaker.description | truncatewords: 25 }}
+              <a href='#' class='read-more' data-toggle="modal" data-target="#keynote-modal-{{ forloop.index }}">Read More</a>
+              </p>
+
+              <div class="modal fade" id="keynote-modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h4 class="modal-title">
+                        {{ speaker.name }}
+                        <span class='modal-location'>{{ speaker.location }}</span>
+                      </h4>
+                      <div class="modal-bio">
+                        <i>{{ speaker.bio }}</i>
+                      </div>
+                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+                      {% if speaker.twitter%}
+                        <div class='modal-link'>
+                          <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+                        </div>
+                      {% endif %}
+                      <h5>{{speaker.title}}</h5>
+                      {{ speaker.description }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
         <div class='section' id='schedule'>
           <div class='row'>
             <div class='col-xs-12'>
@@ -56,21 +166,6 @@ layout: default
           </div>
         </div>
 
-        <div class='row' id='photos'>
-          <div class='section-divider'>
-            <hr />
-            <img src='/assets/images/ruby-hr.png' />
-          </div>
-          <h2> Photos </h2>
-          <div class='slick-photos'>
-            {% for photo in site.data.photos %}
-              <div>
-                <img src=/assets/images/photos/{{photo.filename}} class='photo'/>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-
         <div class='section type-on-dark' id='location'>
           <div class='section-divider'>
             <hr />
@@ -86,58 +181,6 @@ layout: default
                 <a href="https://www.google.com/maps/place/The+Altman+Building/@40.7406744,-73.9984311,17z/data=!3m2!4b1!5s0x89c259bcea246d71:0x2c52a635473c960!4m5!3m4!1s0x89c259bce847986f:0x58d878dcb0e7cac1!8m2!3d40.7406744!4d-73.9962424" target="_blank" class="ui-btn right-button">Get Directions</a>
               </div>
             </div>
-          </div>
-        </div>
-
-        <div class='speaker-section section hide' id="speakers">
-          <div class='row'>
-            <div class='col-xs-12'>
-              <div class='section-divider'>
-                <hr />
-                <img src='/assets/images/ruby-hr.png' />
-              </div>
-              <h2>Speakers</h2>
-            </div>
-          </div>
-
-          <div class='speakers'>
-            {% for speaker in site.data.speakers %}
-            <div class='speaker'>
-              <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
-              <div class='speaker-info'>
-                <h4>{{ speaker.name }}</h4>
-                <h5>{{speaker.title}}</h5>
-                <h6>{{ speaker.location }}</h6>
-                <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
-              </div>
-              <p class='excerpt'>
-              {{ speaker.description | truncatewords: 25 }}
-              <a href='#' class='read-more' data-toggle="modal" data-target="#modal-{{ forloop.index }}">Read More</a>
-              </p>
-
-              <div class="modal fade" id="modal-{{ forloop.index }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-body">
-                      <h4 class="modal-title">
-                        {{ speaker.name }}
-                        <span class='modal-location'>{{ speaker.location }}</span>
-                      </h4>
-                      <div class="modal-bio">
-                        <i>{{ speaker.bio }}</i>
-                      </div>
-                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
-                      <div class='modal-link'>
-                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
-                      </div>
-                      <h5>{{speaker.title}}</h5>
-                      {{ speaker.description }}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
           </div>
         </div>
 
@@ -329,13 +372,28 @@ layout: default
             </div>
           </div>
         </div>
+
+        <div class='row' id='photos'>
+          <div class='section-divider'>
+            <hr />
+            <img src='/assets/images/ruby-hr.png' />
+          </div>
+          <h2> GORUCO 2017 Photos </h2>
+          <div class='slick-photos'>
+            {% for photo in site.data.photos %}
+              <div>
+                <img src=/assets/images/photos/{{photo.filename}} class='photo'/>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
 
       <div class='col-xs-12' id='organizers'>
         <div class='section organizer-section'>
           <h5>
-            Goruco 2018 is organized with <i class="fa fa-heart" aria-hidden="true"></i> by these happy & hardworking volunteers
+            GORUCO 2018 is organized with <i class="fa fa-heart" aria-hidden="true"></i> by these happy & hardworking volunteers
           </h5>
           <div class='organizers'>
           {% for organizer in site.data.organizers %}

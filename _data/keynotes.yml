@@ -1,0 +1,10 @@
+- name: Jessica Rudder
+  twitter: "@JessRudder"
+  title: "The Good Bad Bug: Fail Your Way to Better Code"
+  description: "Failure is a state that most people are taught to avoid. By the time we write our first &quot;Hello World&quot;, we're too nervous about making mistakes to fully focus on learning. However, research on effective learning shows failure is a key step in gaining new skills. This presents a problem! The very thing (failure) that can help us learn and improve is the thing we try incredibly hard to avoid. As a recovering perfectionist, I know how much harder learning has been due to my fear of failure. During this talk, the audience will hear research showing that failure aides learning, they will get real world examples of failure improving some well-known programs and we'll go over a framework for how to learn more through embracing failure."
+  bio: Jessica Rudder is an engineer at GitHub with a passion for clean code and the Kansas City Royals. She once ran 70 miles through the Santa Monica Mountains "just for fun". When she's not writing code, she can be found running aimlessly through city streets training for her next ultra or creating code-related videos on YouTube for CompChomp. She is an avid squirrel photographer and loves the color green.
+- name: Aaron Patterson
+  twitter: "@tenderlove"
+  title: Analyzing and Reducing Ruby Memory Usage
+  description: Memory usage is an important topic for large applications.  I've been working on memory optimizations for our application at work, and I will present some of the techniques I used to find memory to free.  Also I wrote two of the patches I will present in the talk.
+  bio: Aaron is on the Ruby core team, the Rails core team, and the team that takes care of his cat, Gorby puff.  During the day he works for a small technology company called GitHub.  Someday he will find the perfect safety gear to wear while extreme programming.

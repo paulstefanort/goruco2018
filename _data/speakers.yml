@@ -1,72 +1,90 @@
-- name: Ruby Halvorson
-  twitter: "@twitter"
-  location: New York, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Alona Reichert
-  twitter: "@twitter"
-  location: London, England
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Bethanie Kuvalis
-  twitter: "@twitter"
-  location: New York, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Lori Thompson
-  twitter: "@twitter"
-  location: Brazil, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Andreas Gutmann
-  twitter: "@twitter"
-  location: San Francisco, CA
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Horacio Flatley
-  twitter: "@twitter"
-  location: New York, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Dennis Keeling
-  twitter: "@twitter"
-  location: Surrey, England
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Dovie Jones
-  twitter: "@twitter"
-  location: Denver, CO
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Charles Oberbrunner
-  twitter: "@twitter"
-  location: New York, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Pam Gerhold
-  twitter: "@twitter"
-  location: New York, NY
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Stella Langworth
-  location: Seattle, WA
-  twitter: "@twitter"
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
-- name: Karolyn Mante
-  twitter: "@twitter"
-  location: San Diego, CA
-  title: Great Title
-  description: Compassion best practices thought leadership, thought provoking shared unit of analysis social intrapreneurship systems thinking. Replicable compassion scalable replicable movements. Communities thought leadership activate revolutionary collective impact shine philanthropy.
-  bio: Speak Name is from Wakanda
+- name: Scott Bellware
+  twitter: "@sbellware"
+  title: Evented Autonomous Services in Ruby
+  description: "<p>The mainstreaming of service architecture through the popularization of microservices has - for better or worse - driven many Ruby web developers toward an architecture that can be disastrous if not done with eyes wide open. The talk addresses the topic with equal measures enthusiasm and caution, and highlights the common traps that await, as well as the rewards that should be expected.</p>
+<p>I&#39;m qualified to address this topic because it has been my work and study focus for many years. The vast majority of work I do is service architecture implementation, and Ruby is my language of choice - and I ultimately believe that it&#39;s a good language for this kind of work. I&#39;ve addressed this subject more formally at meetups and conferences for the past few years, and have been involved in community organization, teaching, and public speaking for a number of years.</p>"
+  bio: Scott Bellware works with development teams on monolith remediation, as well as autonomous services projects. He’s been on a five-year mission to incorporate all the good things he’s learned in the distributed systems world with all the good things he’s learned in the Ruby world. Scott is a contributor to the Eventide toolkit for event-sourced autonomous services in Ruby.
+
+- name: Danielle Adams
+  twitter: "@adamzdanielle"
+  title: "Locking It Down with Ruby & Lockfiles"
+  description: "<p>A few months ago, I started investigating the way lockfiles are generated for JavaScript applications. While they&#39;ve come a long way in the past few years, Ruby has always had a reliable way to lock dependencies in both libraries and applications.<br>
+I use tools and software every day that I am unfamiliar with how they work and attribute their functionality to &quot;magic&quot;. While I enjoy these tools and appreciate them for making my job easier, I like to know how they work under the hood. Understanding how these tools work are helpful for troubleshooting, but also for make us more knowledgeable problem solvers.</p>"
+  bio: Danielle is a full-stack software engineer in New York. Her expertise stretches between front-end heavy web applications and a variety of back-ends, built in Ruby. In her free time, she enjoys live music, food, teaching others to code, and hanging out with her cat.
+
+- name: Kir Shatrov
+  twitter: "@kirshatrov"
+  title: Running Jobs at Scale
+  description: "<p>Our new jobs infrastructure allows us to interrupt any job (that may take hours or days to complete) at any time, fail over the workload to another region, and resume the job from precisely the same point where it was interrupted. If the job is running too slow, the workload may be automatically parallelized - and if it starts to cause too much load of the infrastructure, it will be automatically throttled. All of this wouldn&#39;t be possible without the API for jobs that I&#39;m planning to present.</p>
+<p>The API allows our developers to introduce any jobs within the API and stop caring that it may take weeks to process a subset of data. From the infrastructure end, it unblocks us to gracefully shut down a VM instance at any point (which often happens in cloud environments) and stop worrying about any progress lost.</p>"
+  bio: "Kir Shatrov is a Platform Engineer at Shopify where he works on application scalability and resiliency.
+When not into working, Kir enjoys cooking delicious food and gastronomic travels."
+
+- name: Melissa Wahnish
+  twitter: "@_rubythursday_"
+  title: Encryption Pitfalls and Workarounds
+  description: "<p>This topic is timely as the GDPR deadline is coming up May 28th so potentially folks would not have dealt with implementing security measures yet.  Or they may need to when opening up to EU markets.  Also security is a hot topic all around. </p>
+<p>I had to implement encryption for a client with a user base of over 15,000 and growing.  </p>"
+  bio: Melissa Wahnish is the founder of RubyThursday, a free weekly online show that gives junior Rails developers bite sized tutorials, tips and tricks to help them grow.  She co-organizes the Ruby Roundtable Meetup, the longest running Ruby meetup in NYC.  Along with her husband, she builds startups for non-technical entrepreneurs. She loves sci-fi and knitting.
+
+- name: Megan Tiu
+  twitter: "@megantiu"
+  title: The Practical Guide to Building an Apprenticeship
+  description: "<p>GORUCO feels like a natural fit for this talk: on the whole, GORUCO attendees are invested in growing other developers and impacting the community for the better. An apprenticeship is a fantastic way to accomplish both of those goals. I&#39;ve heard general buzz about apprenticeships from a variety of people at the last few Ruby community conferences I&#39;ve attended, but overall what&#39;s been lacking from the discussion is a clear game plan for making these kinds of programs a reality. Consistently, the sentiment coming from fellow Rubyists is &quot;An apprenticeship sounds great, but I wouldn&#39;t know where to start.&quot; This talk fills that specific need. Because I&#39;ve been through the process of creating an apprenticeship from scratch, in this talk I can provide real, actionable advice for implementing an apprenticeship, as well as the valuable lessons learned that only experience can provide. My goal for this talk is to empower GORUCO attendees with the tools to build an apprenticeship and bring change within their organizations and for their communities.</p>
+<p>Further, I&#39;m the perfect person to give this talk: inside a company that previously &quot;didn&#39;t hire juniors,&quot; I&#39;ve pitched an apprenticeship to my CTO, created its structure, hired apprentices, and mentored them, all within less than a year. At the conclusion of the program&#39;s first iteration, we hired both apprentices on as full-time developers. I&#39;m so deeply proud of this; by far, this the most rewarding thing I&#39;ve done in my career. I&#39;ve done a lot of work in the community bringing underrepresented people into tech, and one of the biggest hurdles new developers face is that there are rarely any junior- or entry-level developer positions available. But now, with this apprenticeship, I&#39;m able to provide paid (with benefits) entry-level dev positions to many people (two apprentices per cohort!). So clearly solving a major problem like this is my greatest accomplishment and I can&#39;t wait to give GORUCO attendees the tools to do the same.</p>"
+  bio: Megan Tiu is a Senior Software Engineer at CallRail that loves solving problems with Ruby and helping other developers grow. She works to make technology more accessible to women and people of underrepresented groups in any way she can. Megan also hopes to pet every dog in existence.
+
+- name: Andy Croll
+  twitter: "@andycroll"
+  title: The Impermanence of Software
+  description: "<p>This is right at the &#39;least technical&#39; end of the conference talk spectrum. But probably the most important.</p>
+
+<p>We start with a fairly depressing look at the fate of most of the software we create, before asking if that is the case... and it is... what does it mean for the &#39;rest&#39; of the job. We&#39;ll talk about teams, relationships and even our attitude to day to day work, as well as the broader cycle of a whole career.</p>
+
+<p>The thing is... the code isn&#39;t the point. The people are the point. Both the people who will use your software and the people you work with as you create it and the people who you provide for by getting paid for the work.</p>"
+  # bio:
+
+- name: Kelly Sutton
+  # twitter: "@twitter"
+  title: "I've Made a Huge Mistake: We Did Services All Wrong"
+  description: "<p>This talk is pertinent as the Rails and Ruby ecosystems continue to mature. What was once the new hotness is now legacy software. (Time flies!)</p>
+
+<p>This talk will be delivered by one of the engineers that spearheaded slowly breaking apart (or not breaking apart) a monolith that moves more than $1 billion per month.</p>"
+  bio: "Kelly Sutton is an engineering manager at Gusto.
+
+In the past, he created LayerVault, Designer News, and a blog for college students. He is currently based in San Francisco, CA.
+He regularly writes blog posts about software engineering at <a href='https://kellysutton.com' target='_blank'>https://kellysutton.com</a>"
+
+- name: Joe Leo
+  twitter: "@jleo3"
+  title: Writing Ruby Like it's 2018
+  description: "<p>Failure is everywhere in our industry. Startups fail to secure their next round of funding; teams fail to properly collaborate; companies fail to release their projects. Engineers - particularly those accustomed to &quot;head down development,&quot; tend to suffer the consequences by being totally unprepared for impending failure.</p>
+
+<p>Learning how to talk to people and, more importantly, how to listen, is a cornerstone of protecting one&#39;s job and/or career. It is also critical to gathering information, assessing the risk, and acting with enough time to salvage a project or walk away without being burned.</p>
+
+<p>I&#39;ve spent the last 15 years working as a software engineer, consultant, and business owner all in New York City. It is not a stretch to say I make my living by talking and listening to business owners, CTOs, developers, designers, product managers, and external contractors. I&#39;ve learned hard lessons and as a result have steeled myself and others against catastrophe numerous times. </p>
+
+<p>I have spent most of my career as a Rubyist and remain committed to the language. I am writing the third edition of The Well-Grounded Rubyist, set for release in early summer 2018.</p>
+
+<p>As a public speaker I&#39;m experienced, confident, and friendly. Though a serious topic, my talk will be fun! I cover serious issues in a respectful and compelling manner.</p>"
+  bio: "Joe Leo is the founder and president of Def Method. After spending more than a decade delivering high-quality software solutions spanning government, education, finance and e-commerce, Joe set out to offer something unique in New York City: a development shop of talented engineers who can step back and see the bigger picture. Joe brings his mix of engineering muscle, business acumen, enthusiasm for challenges, and technical leadership to the helm of every Def Method project."
+
+- name: Rushaine McBean
+  twitter: "@copasetickid"
+  title: "Building Efficient APIs with JSON-API"
+  description: "<p>APIs play a vital role in web applications  that many engineers either implement or interact with them at work and use this talk a resource for working with the JSON API spec. I’m qualified to deliver this talk because of my experience in implementing and maintaining APIs that have implemented this spec  various Rails app that I’m able to share what I’ve learned.</p>"
+  bio: Rushaine McBean is a software engineer who specializes in building JavaScript and Ruby on Rails web applications. She picked up JavaScript as her first web technology then Ruby on Rails to serve as her API and hasn’t looked back. When she’s not writing code for current employer Kickstarter, she’s working on side projects to stay update to with JavaScript & Ruby on Rails technologies or helping run Manhattan.js a local JS meetup in NYC.
+
+- name: Desmond Rawls
+  twitter: "@okokillgo"
+  title: The Twelve-Factor Function
+  description: "<p>Development and operations put a lot of tension on each other. Ideally, these two aspects of working software could be independently evolvable. In order to do that, however, we need to separate domain concerns from deployment concerns. And that takes work.</p>
+
+<p>Since joining Pivotal three years ago, I&#39;ve developed dozens of web apps. For most of that time I didn&#39;t think much about the world of operations. Then I spent six months with the Cloud Foundry infrastructure team. There I experienced first-hand the challenges of building a platform, and became much more aware of the friction between development and operations. Now I am constantly experimenting with ways to develop software that is independent of my deployment strategy. This talk is about sharing what I&#39;ve come up with and my thoughts so far.</p>"
+  bio: Desmond is a passionate explorer of new ideas. He likes working in software because he experiences so many different industries and perspectives. He thinks the philosophical side of what developers do is drastically under-rated and hopes to change that.
+
+- name: Sam Phippen
+  twitter: "@samphippen"
+  title: After Death
+  description: "<p>This talk is a subject of real passion for me. I&#39;ve recently made the switch from being a full time engineer to doing engineering management. As such, I care pretty deeply that my people are able to sleep happy, knowing that it&#39;s unlikely that they&#39;re going to get paged. Getting my organisation on board with a really healthy postmortem culture has become very important to me. We&#39;ve had some arguments along the way and along with just talking about what I think is a good idea, I&#39;ll cover some of the pushback that I&#39;ve heard, and how we&#39;ve implemented a generally healthier culture around this at my company.</p>"
+  bio:

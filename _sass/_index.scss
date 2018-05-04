@@ -4,6 +4,15 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   display: none;
 }
 
+.modal-image {
+  margin: 0 auto;
+  max-height: 300px;
+}
+
+.justworks {
+  margin-top: 10px;
+}
+
 .xogroupinc {
   padding: 10px 20px;
 }
@@ -13,11 +22,6 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   width: 170px;
   margin: 41px 0 !important;
   border-radius: 0 !important;
-  // margin: 20px 40px;
-}
-
-.modal-image {
-  max-height: 300px;
 }
 
 .sponsor.optoro-container, .optoro-container .modal-image {
@@ -67,6 +71,34 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
 .lunch {
   height: 52px;
+}
+
+#speakers-non-keynote {
+  .small-image {
+    margin: 0 auto;
+    max-height: 225px;
+  }
+
+  .img-holder {
+    height: 225px;
+  }
+}
+
+#keynotes {
+  .speaker {
+    display: inline-block;
+  }
+
+  img {
+    margin: 0 auto;
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 992px){
+  #keynotes .speaker{
+    width: 50%;
+  }
 }
 
 #photos {
