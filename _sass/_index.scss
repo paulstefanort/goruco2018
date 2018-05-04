@@ -162,6 +162,10 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 
     .headline {
       margin-bottom: 15px;
+      line-height: 65px;
+      @include xs-screen {
+        line-height: 32px;
+      }
     }
 
     @include xs-screen {
