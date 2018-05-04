@@ -8,3 +8,8 @@
   website: http://www.optoro.com/
   bio: We’re a technology company building software that reimagines how retailers work & how consumers buy. Our teams move fluidly and synchronously to dig into real-world challenges, guided by iterative design, agile development, and an ambitious product vision.
   location: Washington, DC
+- name: Rhino
+  css_class: rhino
+  website: http://www.sayrhino.com/
+  bio: “Rhino is the smart alternative to security deposits. Renters pay less up front, landlords are covered, and issues are resolved fairly, always.”
+  location: New York, NY
