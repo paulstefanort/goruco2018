@@ -8,31 +8,38 @@
   time: 10:00 AM
   duration: 30
   milestone: true
+  modal_index: 1
+  keynote: true
 
 - title: "Evented Autonomous Services in Ruby"
   name: Scott Bellware
   time: 10:40 AM
   duration: 30
+  modal_index: 1
 
 - title: "Locking It Down with Ruby & Lockfiles"
   name: Danielle Adams
   time: 11:20 AM
   duration: 10
+  modal_index: 2
 
 - title: "Running Jobs at Scale"
   name: Kir Shatrov
   time: 11:40 AM
   duration: 10
+  modal_index: 3
 
 - title: "Encryption Pitfalls and Workarounds"
   name: Melissa Wahnish
   time: 12:00 PM
   duration: 10
+  modal_index: 4
 
 - title: "The Practical Guide to Building an Apprenticeship"
   name: Megan Tiu
   time: 12:20 PM
   duration: 30
+  modal_index: 5
 
 - title: "Lunch"
   time: 1:00 PM
@@ -45,34 +52,42 @@
   name: Andy Croll
   time: 02:00 PM
   duration: 30
+  modal_index: 6
 
 - title: "I've Made a Huge Mistake: We Did Services All Wrong"
   name: Kelly Sutton
   time: 2:40 PM
   duration: 30
+  modal_index: 7
 
 - title: "Writing Ruby Like it's 2018"
   name: Joe Leo
   time: 3:20 PM
   duration: 10
+  modal_index: 8
 
 - title: "Building Efficient APIs with JSON-API"
   name: Rushaine McBean
   time: 3:40 PM
   duration: 10
+  modal_index: 9
 
 - title: "The Twelve-Factor Function"
   name: Desmond Rawls
   time: 4:00 PM
   duration: 10
+  modal_index: 10
 
 - title: "After Death"
   name: Sam Phippen
   time: 4:20 PM
   duration: 30
+  modal_index: 11
 
 - title: "Closing Keynote: Analyzing and Reducing Ruby Memory Usage"
   name: Aaron Patterson
   time: 5:00 PM
   duration: 30
   milestone: true
+  modal_index: 2
+  keynote: true

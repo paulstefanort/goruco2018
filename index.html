@@ -278,7 +278,13 @@ layout: default
                   </div>
 
                   <div class="right {{schedule.css_class}}">
-                    <div class="title">{{ schedule.title }} {% if schedule.icon %}<img class="icon" src='/assets/images/{{schedule.icon}}.png' />{% endif %}</div>
+                    {% if schedule.modal_index %}
+                    <a href='#' class='read-more' data-toggle="modal" data-target="#{% if schedule.keynote != true %}keynote-{% endif %}modal-{{ schedule.modal_index }}">
+                      <div class="title">{{ schedule.title }} {% if schedule.icon %}<img class="icon" src='/assets/images/{{schedule.icon}}.png' />{% endif %}</div>
+                    </a>
+                    {% else %}
+                      <div class="title">{{ schedule.title }} {% if schedule.icon %}<img class="icon" src='/assets/images/{{schedule.icon}}.png' />{% endif %}</div>
+                    {% endif %}
                     <div class='name'>{{ schedule.name }}</div>
                   </div>
                 </div>
