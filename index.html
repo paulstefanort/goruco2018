@@ -38,7 +38,10 @@ layout: default
           <div class='speakers' id='keynotes'>
             {% for speaker in site.data.keynotes %}
             <div class='speaker col-md-6'>
-              <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+
+              <a href='#' class='read-more' data-toggle="modal" data-target="#modal-{{ forloop.index }}">
+                <img class='img-responsive small-image' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+              </a>
               <div class='speaker-info'>
                 <h4>{{ speaker.name }}</h4>
                 <h5>{{speaker.title}}</h5>
@@ -112,6 +115,14 @@ layout: default
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-body">
+                      <h5>{{speaker.title}}</h5>
+                      {{ speaker.description }}
+                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+                      {% if speaker.twitter%}
+                        <div class='modal-link'>
+                          <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+                        </div>
+                      {% endif %}
                       <h4 class="modal-title">
                         {{ speaker.name }}
                         <span class='modal-location'>{{ speaker.location }}</span>
@@ -119,14 +130,6 @@ layout: default
                       <div class="modal-bio">
                         <i>{{ speaker.bio }}</i>
                       </div>
-                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
-                      {% if speaker.twitter%}
-                        <div class='modal-link'>
-                          <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
-                        </div>
-                      {% endif %}
-                      <h5>{{speaker.title}}</h5>
-                      {{ speaker.description }}
                     </div>
                   </div>
                 </div>
