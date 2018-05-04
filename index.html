@@ -56,6 +56,13 @@ layout: default
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-body">
+                      <h5>{{speaker.title}}</h5>
+                      {{ speaker.description }}
+                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
+
+                      <div class='modal-link'>
+                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
+                      </div>
                       <h4 class="modal-title">
                         {{ speaker.name }}
                         <span class='modal-location'>{{ speaker.location }}</span>
@@ -63,13 +70,6 @@ layout: default
                       <div class="modal-bio">
                         <i>{{ speaker.bio }}</i>
                       </div>
-                      <img class='modal-image img-responsive' src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg" />
-
-                      <div class='modal-link'>
-                        <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">{{ speaker.twitter }}</a>
-                      </div>
-                      <h5>{{speaker.title}}</h5>
-                      {{ speaker.description }}
                     </div>
                   </div>
                 </div>
