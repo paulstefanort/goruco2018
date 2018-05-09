@@ -10,7 +10,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 
 .justworks {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .xogroupinc {
@@ -563,10 +563,6 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .silver-sponsors {
   margin-bottom: 25px;
   width: 70%;
-
-  .small-image {
-    height: 109px;
-  }
 
   @include md-screen {
     width: 80%;
