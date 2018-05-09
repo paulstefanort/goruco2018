@@ -31,16 +31,19 @@
   </div>
   <div class='mobile-links'>
     <div class='nav-links slider-nav visible-xs'>
-      <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a>
-      <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a>
-      <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
-      <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a>
-      <a href="{% if page.url != '/index.html' %}/{% endif %}#scholarship-sponsors">Scholarships</a>
-      <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a>
-      <!-- <a href="/blog">News</a> -->
-      <!-- <a href="{% if page.url != '/index.html' %}/{% endif %}#contact">Contact</a> -->
-      <a href="/about">About</a>
-      <a href="http://videos.goruco.com/" target="_blank">Videos</a>
+      <button id="menu-button" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-label="Left Align">
+        <span class="fa fa-bars"></span>
+      </button>
+      <ul class='dropdown-menu'>
+        <li> <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#scholarship-sponsors">Scholarships</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a></li>
+        <li> <a href="/about">About</a></li>
+        <li> <a href="http://videos.goruco.com/" target="_blank">Videos</a></li>
+      </ul>
     </div>
   </div>
 </header>

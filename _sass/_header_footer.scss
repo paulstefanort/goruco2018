@@ -142,24 +142,38 @@ footer {
   }
 }
 
+#menu-button {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
 .slider-nav {
   background-color: $red;
-  height: 20px;
-  font-weight: 500;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding-bottom: 30px;
-  opacity: .85;
   border-bottom: 3px solid #CF2941;
+  color: white;
+  font-weight: 500;
+  height: auto;
+  letter-spacing: 2px;
+  opacity: .95;
+  text-transform: uppercase;
+  text-align: left;
 
   a {
-    padding: 0 10px
+    padding: 20px 10px
   }
 
-  @include xs-screen {
-    height: 70px;
-    text-align: center;
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 30px;
+
+    &:first-child {
+      padding-top: 20px;
+    }
   }
 }
 
