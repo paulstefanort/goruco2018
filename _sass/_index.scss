@@ -139,7 +139,11 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   }
 }
 
-.announcement {
+.logo-2018 {
+  width: 90%;
+}
+
+#announcement {
   height: 400px;
   background: #fff no-repeat center;
   color: #333;
@@ -150,6 +154,24 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
   align-items: center;
   text-align: center;
   letter-spacing: 2.5px;
+
+  &.beta {
+    height: 300px;
+    margin-top: 40px;
+    display: inherit;
+
+    .image {
+      padding-top: 30px;
+    }
+
+    .text {
+      padding-top: 70px;
+
+      @include xs-screen {
+        padding-top: 0;
+      }
+    }
+  }
 
   @include xs-screen {
     height: 375px;
