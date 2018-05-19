@@ -1,18 +1,27 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- Basic -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>
+    {{ site.title }}
+    {% if page.title %} - {{ page.title }} {% endif %}
+  </title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
 
   <meta property="og:image" content="{{ site.url }}/assets/images/goruco-social.png" />
 
-  <link rel="stylesheet" href="{{ site.url }}/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ site.url }}/css/font-awesome.css">
-  <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/css/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- Web Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+
+  <!-- Vendor Styles -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+  <!-- Theme Styles -->
+  <link href="css/mega/style.css" rel="stylesheet" type="text/css"/>
+  <link href="css/mega/global/global.css" rel="stylesheet" type="text/css"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 </head>

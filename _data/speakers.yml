@@ -1,3 +1,15 @@
+- name: Jessica Rudder
+  twitter: "@JessRudder"
+  title: "The Good Bad Bug: Fail Your Way to Better Code"
+  description: "<p>Programming history is filled with bugs that turned out to be features and limitations that pushed developers to make even more interesting products. We’ll journey through code that was so ‘bad’ it was actually good. Along the way we&#39;ll look at the important role failure plays in learning. Then we’ll tame our inner perfectionists and tackle an approach to writing code that will help us fail spectacularly on our way to coding success.</p>"
+  bio: Jessica Rudder is an engineer at GitHub with a passion for clean code and the Kansas City Royals. She once ran 70 miles through the Santa Monica Mountains "just for fun". When she's not writing code, she can be found running aimlessly through city streets training for her next ultra or creating code-related videos on YouTube for CompChomp. She is an avid squirrel photographer and loves the color green.
+
+- name: Aaron Patterson
+  twitter: "@tenderlove"
+  title: Analyzing and Reducing Ruby Memory Usage
+  description: "<p>Memory usage can be difficult to analyze.  In this presentation we will cover different techniques for analyzing memory usage of a Ruby process including in-process analysis tools as well as system level tools.  After doing memory analysis, we&#39;ll look at some ways to reduce overall memory used by the system.  Attendees will leave with practical tips and tricks for memory analysis in their Ruby systems, as well as a better understanding of Ruby internals.</p>"
+  bio: Aaron is on the Ruby core team, the Rails core team, and the team that takes care of his cat, Gorby puff.  During the day he works for a small technology company called GitHub.  Someday he will find the perfect safety gear to wear while extreme programming.
+
 - name: Scott Bellware
   twitter: "@sbellware"
   title: Evented Autonomous Services in Ruby
@@ -43,7 +55,7 @@ When not into working, Kir enjoys cooking delicious food and gastronomic travels
   description: "<p>As engineers we place a lot of emphasis in the things that we build. However lots of the software we write is destined for deletion. What does this do to our definition of &#39;doing great work&#39;?</p>
   <p>Is &quot;great work&quot; inherent to the code you write? Is it your customer&#39;s results? Is it anything to do with the output in the first place?</p>
   <p>Come and examine the role of teams, personal relationships and your own attitude in your day to day work, as well as in the broader cycle of a whole career and our industry.</p>"
-  # bio:
+  bio: Freelance CTO, Rubyist, Conference Organizer, Author, Speaker & Parent of Twins. I’m tired a lot.
 
 - name: Kelly Sutton
   # twitter: "@twitter"
@@ -86,4 +98,4 @@ He regularly writes blog posts about software engineering at <a href='https://ke
   title: After Death
   description: "<p>We all operate software, and we all know that it can fail. There&#39;s nothing quite like that adrenaline inducing, heart rate raising, spine tingling moment when you know something is broken, and you are the one to fix it. But the question is, once you&#39;ve fixed it, what happens afterwards? How do you make this never happen again?</p>
 <p>In this talk, you&#39;ll learn about postmortem analysis. A tool you can apply to make your production software more resilient to failure. You&#39;ll learn how to understand human vs machine cause, and how to operate your software a little better. This talk is technical, but should be accessible to Ruby developers of all skill level.</p>"
-  bio:
+  bio: Sam Phippen is an Engineer at DigitalOcean. He comes to the table with enthusiasm, and a great deal of love for the Ruby community. He fights for the forces of justice as a member of the RSpec core team. He's sad that he can't hug every cat
