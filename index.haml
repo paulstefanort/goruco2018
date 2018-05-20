@@ -17,20 +17,21 @@ layout: default
       Purchase a ticket
 
 %section#speakers
-  .row
-    %h2
-      Speakers
+  %h2
+    Speakers
 
+  .speakers
     == {% for speaker in site.data.speakers %}
     .speaker
-      %img.img-responsive.small-image(src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg")
-      .speaker-info
+      .speaker-id
+        %img(src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg")
         %h3
           <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
           == {{ speaker.name }}
           </a>
-        %h4== {{speaker.title}}
-        %p.excerpt== {{ speaker.description | truncatewords: 25 }}
+
+      .speaker-excerpt
+        %p== {{ speaker.bio }}
     == {% endfor %}
 
 %section#venue
@@ -42,7 +43,7 @@ layout: default
     .col-xs-12
       %h2 Schedule
       %ul.schedule
-      == {% for schedule in site.data.schedule %}
+        == {% for schedule in site.data.schedule %}
       %li.schedule-item
         %p.time== {{ schedule.time }}
 
@@ -108,8 +109,9 @@ layout: default
 %section#organizers
   %h4
     GORUCO 2018 is organized with <i class="fa fa-heart" aria-hidden="true"></i>
-    by these happy & hardworking volunteers
-  {% for organizer in site.data.organizers %}
+    by these happy and hardworking volunteers
+  .organizers
+    {% for organizer in site.data.organizers %}
     .organizer
       <img src="/assets/images/organizers/{{ organizer.name | slugify }}.jpg" />
       .organizer-description

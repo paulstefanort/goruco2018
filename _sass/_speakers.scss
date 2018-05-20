@@ -1,0 +1,67 @@
+$speaker-width: 15rem;
+
+#speakers {
+  padding-top: $spacer*3;
+
+  h2 {
+    font-size: $font-size-40;
+    text-align: center;
+  }
+  
+  .speakers {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: $spacer*2;
+  }
+
+  .speaker {
+    flex: 1 0 20%;
+    margin: $spacer;
+    min-width: $speaker-width;
+    text-align: center;
+
+    &:nth-child(-n+2) {
+      display: flex;
+      min-width: 40%;
+    }
+
+    &:nths-last-child(2):nth-child(4n) {
+      min-width: 20%;
+    }
+
+    .speaker-id {
+      margin: 0 auto $spacer auto;
+      width: $speaker-width;
+
+      h3 {
+        background: $color-primary;
+        margin: $spacer;
+        margin-top: -20px;
+        top: -10px;
+        padding: $spacer/2;
+        position: relative;
+
+        a {
+          color: $color-white-opacity;
+          text-decoration: none;
+        }
+      }
+
+      img {
+        max-width: $speaker-width;
+      }
+    }
+
+    .speaker-excerpt {
+      margin: 0 auto;
+      max-width: $speaker-width;
+    }
+
+    p {
+      margin-top: -3px;
+      text-align: left;
+    }
+  }
+}
