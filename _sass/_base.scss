@@ -1,0 +1,47 @@
+/*----------------------------------
+  Common HTML elements and more for easier usage
+------------------------------------*/
+
+html {
+  overflow-x: hidden;
+}
+
+html, html a, body {
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  // Sets a specific default `font-size` for user with `rem` type scales.
+  font-size: $font-size-root;
+  // Changes the default tap highlight to be completely transparent in iOS.
+  -webkit-tap-highlight-color: rgba(#000,0);
+}
+
+body {
+  font: $font-size-root $font-family-primary;
+  color: $color-body;
+  line-height: $line-height;
+  background: $bg-color-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-secondary;
+  line-height: $headings-line-height;
+  color: $color-heading;
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  margin-bottom: $headings-margin-bottom;
+
+  a {
+    color: $color-heading;
+  }
+}
