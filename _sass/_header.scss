@@ -1,0 +1,14 @@
+header {
+  background: $color-gray-light;
+  display: flex;
+  padding: $spacer;
+}
+
+nav {
+  display: flex;
+  margin-left: $spacer;
+
+  a {
+    margin: 0 $spacer 0 $spacer;
+  }
+}
