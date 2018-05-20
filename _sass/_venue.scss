@@ -1,0 +1,22 @@
+#venue {
+  
+  a#map {
+    display: block;
+    height: 400px;
+  }
+
+  .location {
+    background: rgba($color-dark, 0.8);
+    bottom: $spacer*3;
+    color: $color-white;
+    left: $spacer*3;
+    padding: $spacer;
+    position: absolute;
+    z-index: 401;
+
+    h2 {
+      color: $color-white;
+      margin: 0;
+    }
+  }
+}
