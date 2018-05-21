@@ -66,16 +66,5 @@
     grid-column-start: 1;
     grid-row-start: 2;
     justify-self: center;
-
-    a {
-      background: $color-primary;
-      border-radius: 5px;
-      color: $color-white;
-      display: block;
-      font-size: $font-size-20;
-      padding: $spacer;
-      text-align: center;
-      text-decoration: none;
-    }
   }
 }

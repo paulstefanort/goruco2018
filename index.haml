@@ -13,7 +13,7 @@ layout: default
     %p.year 2018
 
   .cta
-    %a(href="https://ti.to/goruco/2018#tito-releases" target="_blank")
+    %a.button(href="https://ti.to/goruco/2018#tito-releases" target="_blank")
       Purchase a ticket
 
 %section#speakers
@@ -52,11 +52,11 @@ layout: default
         %p.speaker_name== {{ schedule.name }}
       == {% endfor %}
 
-%section#sponsors.container
+%section#sponsors
   %h2 Sponsors
   %p A huge thanks to our amazing sponsors
   %p.prospectus
-    %a.btn(href="/assets/sponsor-prospectus.pdf" target="_blank")
+    %a.button(href="/assets/sponsor-prospectus.pdf" target="_blank")
       Become A Sponsor
 
   .gold
