@@ -1,0 +1,32 @@
+#sponsors {
+
+  h2 {
+    font-size: $font-size-40;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .gold,
+  .silver,
+  .bronze {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: $spacer*3 0 $spacer*2 0;
+
+    h3 {
+      flex-basis: 100%;
+      font-size: $font-size-20;
+      text-align: center;
+    }
+
+    img {
+      max-height: 149px; 
+    }
+  }
+}
