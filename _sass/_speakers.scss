@@ -15,7 +15,6 @@ $speaker-width: 15rem;
     flex: 1 0 20%;
     margin: $spacer;
     min-width: $speaker-width;
-    text-align: center;
 
     &:nth-child(-n+2) {
       display: flex;
@@ -37,6 +36,7 @@ $speaker-width: 15rem;
         top: -10px;
         padding: $spacer/2;
         position: relative;
+        text-align: center;
 
         a {
           color: $color-white-opacity;
@@ -52,6 +52,10 @@ $speaker-width: 15rem;
     .speaker-excerpt {
       margin: 0 auto;
       max-width: $speaker-width;
+
+      h4 {
+        font-weight: 600;
+      }
     }
 
     p {
