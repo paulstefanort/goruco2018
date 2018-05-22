@@ -37,7 +37,7 @@ layout: default
 %section#venue
   %a#map{href: "https://goo.gl/maps/f85YyYcYR3L2"}
     .location
-      %h2 via 1, 2, 3, F, M, AND L TRAINS.
+      %h3 via 1, 2, 3, F, M, AND L TRAINS.
 
 %section#schedule
   %h2 Schedule
@@ -51,40 +51,38 @@ layout: default
     == {% endfor %}
 
 %section#sponsors
-  %h2 Sponsors
-  %p A huge thanks to our amazing sponsors
-  %p.prospectus
-    %a.button(href="/assets/sponsor-prospectus.pdf" target="_blank")
-      Become A Sponsor
+  .group
+    %h2 Sponsors
+    %p A huge thanks to our amazing sponsors
+    %p.prospectus
+      %a.button(href="/assets/sponsor-prospectus.pdf" target="_blank")
+        Become A Sponsor
 
-  .gold
+  .gold.sponsor-group
     %h3 Gold sponsors
-    .sponsor-group
-      %article.stride
-        %a(href="http://www.stridenyc.com/" target="_blank")
-          <img src="/assets/images/sponsors/stride.png" alt="Stride" />
+    %article.stride
+      %a(href="http://www.stridenyc.com/" target="_blank")
+        <img src="/assets/images/sponsors/stride.png" alt="Stride" />
 
-      %article.xo-group
-        %a(href="http://xogroupinc.com/" target="_blank")
-          <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
+    %article.xo-group
+      %a(href="http://xogroupinc.com/" target="_blank")
+        <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
 
-  .silver
+  .silver.sponsor-group
     %h3 Silver sponsors
-    .sponsor-group
-      %article.def-method
-        %a(href="http://defmethod.com/" target="_blank")
-          <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+    %article.def-method
+      %a(href="http://defmethod.com/" target="_blank")
+        <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
 
-      %article.just-works
-        %a(href="http://www.justworks.com/")
-          <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
+    %article.just-works
+      %a(href="http://www.justworks.com/")
+        <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
 
-  .bronze
+  .bronze.sponsor-group
     %h3 Bronze sponsors
-    .sponsor-group
-      %article.wyeworks
-        %a(href="http://www.wyeworks.com/")
-          <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
+    %article.wyeworks
+      %a(href="http://www.wyeworks.com/")
+        <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
 
 %section#scholarships
   %h2 Scholarships
