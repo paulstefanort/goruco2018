@@ -6,11 +6,24 @@
 
   p {
     margin: 0 auto $spacer auto;
-    max-width: 36em;
+    max-width: 30em;
     text-align: center;
   }
 
-  .optoro img {
-    background: #373737;
+  .button {
+    margin: $spacer auto $spacer*3 auto;
+    max-width: 265px;
+  }
+
+  .sponsor-group {
+    justify-content: center;
+
+    .def-method img {
+      max-height: 70px;
+    }
+
+    .rhino img {
+      max-height: 45px;
+    }
   }
 }
