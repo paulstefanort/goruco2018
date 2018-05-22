@@ -72,6 +72,14 @@ body > section {
   padding: $spacer/2 $spacer;
   text-align: center;
   text-decoration: none;
+
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus {
+    background: $color-primary;
+    color: $color-white;
+  }
 }
 
 .page {
