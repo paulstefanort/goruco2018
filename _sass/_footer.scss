@@ -1,0 +1,13 @@
+#footer {
+  padding: $spacer*2;
+
+  .past-years {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      align-items: baseline;
+      display: flex;
+    }
+  }
+}
