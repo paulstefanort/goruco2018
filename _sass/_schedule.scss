@@ -1,0 +1,33 @@
+#schedule {
+  padding: $spacer*3;
+
+  ol {
+    list-style: none;
+  }
+
+  li {
+    border-bottom: 1px solid $color-gray-lighter;
+    display: flex;
+    margin-bottom: $spacer;
+    padding-bottom: $spacer;
+
+    p {
+      margin: 0;
+
+      &.time {
+        font-size: $font-size-24;
+        min-width: 7rem;
+        padding-right: $spacer * 2;
+      }
+    }
+
+    h3 {
+      color: $color-primary;
+      margin: 0;
+    }
+
+    .talk-details {
+      margin-top: $spacer * 0.5;
+    }
+  }
+}

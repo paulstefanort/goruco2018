@@ -3,11 +3,6 @@ $speaker-width: 15rem;
 #speakers {
   padding-top: $spacer*3;
 
-  h2 {
-    font-size: $font-size-40;
-    text-align: center;
-  }
-  
   .speakers {
     align-items: baseline;
     display: flex;

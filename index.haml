@@ -40,17 +40,15 @@ layout: default
       %h2 via 1, 2, 3, F, M, AND L TRAINS.
 
 %section#schedule
-  .row
-    .col-xs-12
-      %h2 Schedule
-      %ul.schedule
-        == {% for schedule in site.data.schedule %}
-      %li.schedule-item
-        %p.time== {{ schedule.time }}
-
+  %h2 Schedule
+  %ol.schedule
+    == {% for schedule in site.data.schedule %}
+    %li.schedule-item
+      %p.time== {{ schedule.time }}
+      .talk-details
         %h3== {{ schedule.title }}
         %p.speaker_name== {{ schedule.name }}
-      == {% endfor %}
+    == {% endfor %}
 
 %section#sponsors
   %h2 Sponsors
