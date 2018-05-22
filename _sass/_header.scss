@@ -1,14 +1,22 @@
 header {
-  background: $color-gray-light;
+  background: $color-white;
   display: flex;
+  justify-content: space-between;
   padding: $spacer;
-}
-
-nav {
-  display: flex;
-  margin-left: $spacer;
 
   a {
-    margin: 0 $spacer 0 $spacer;
+    text-decoration: none;
+  }
+
+  .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+
+    .title {
+      color: #000;
+    }
+    .nth {
+      color: $color-primary;
+    }
   }
 }
