@@ -54,36 +54,12 @@ $spacer-x:                  $spacer;
 $spacer-y:                  $spacer;
 $border-width:              .0625rem;
 
-// Container
-$container-sm:              750px;
-$container-md:              970px;
-
 // Grid breakpoints
 // Define the minimum and maximum dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
 
-$grid-breakpoints: (
-  // Extra small screen / phone
-  xs: 0,
-  // Small screen / phone
-  sm: 34em,
-  // Medium screen / tablet
-  md: 48em,
-  // Large screen / desktop
-  lg: 62em,
-  // Extra large screen / wide desktop
-  xl: 75em
-);
+$breakpoint-sm: 767px;
 
-// Grid containers
-// Define the maximum width of `.container` for different screen sizes.
-
-$container-max-widths: (
-  sm: 34rem,    // 480
-  md: 45rem,    // 720
-  lg: 60rem,    // 960
-  xl: 72.25rem  // 1140
-);
 
 // Typography
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
