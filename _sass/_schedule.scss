@@ -1,8 +1,16 @@
 #schedule {
   padding: $spacer*3;
 
+  @media (max-width: $breakpoint-sm) {
+    padding: $spacer;
+  }
+
   ol {
     list-style: none;
+
+    @media (max-width: $breakpoint-sm) {
+      padding: 0;
+    }
   }
 
   li {
@@ -11,6 +19,11 @@
     margin-bottom: $spacer;
     padding-bottom: $spacer;
 
+    @media (max-width: $breakpoint-sm) {
+      margin-bottom: $spacer/2;
+      padding-bottom: $spacer/2;
+    }
+
     p {
       margin: 0;
 
@@ -18,6 +31,12 @@
         font-size: $font-size-24;
         min-width: 7rem;
         padding-right: $spacer * 2;
+
+        @media (max-width: $breakpoint-sm) {
+          font-size: $font-size-18;
+          min-width: 5rem;
+          padding-right: $spacer;
+        }
       }
     }
 
@@ -28,6 +47,10 @@
 
     .talk-details {
       margin-top: $spacer * 0.5;
+
+      @media (max-width: $breakpoint-sm) {
+        margin-top: 0.3rem;
+      }
     }
   }
 }
