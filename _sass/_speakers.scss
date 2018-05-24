@@ -19,10 +19,19 @@ $speaker-width: 15rem;
     &:nth-child(-n+2) {
       display: flex;
       min-width: 40%;
+
+      @media (max-width: $breakpoint-sm) {
+        display: block;
+        min-width: initial;
+      }
     }
 
     &:nths-last-child(2):nth-child(4n) {
       min-width: 20%;
+
+      @media (max-width: $breakpoint-sm) {
+        min-width: initial;
+      }
     }
 
     .speaker-id {
@@ -52,6 +61,11 @@ $speaker-width: 15rem;
     .speaker-excerpt {
       margin: 0 auto;
       max-width: $speaker-width;
+
+      @media (max-width: $breakpoint-sm) {
+        margin: 0 auto $spacer*2;
+        max-width: inherit;
+      }
 
       h4 {
         font-weight: 600;
