@@ -4,6 +4,14 @@ header {
   justify-content: space-between;
   padding: $spacer;
 
+  @media (max-width: $breakpoint-sm) {
+    flex-wrap: wrap;
+
+    nav a {
+      margin: 0 $spacer $spacer 0;
+    }
+  }
+
   a {
     text-decoration: none;
   }
@@ -13,9 +21,15 @@ header {
     margin-left: $spacer * 2;
     text-transform: uppercase;
 
+    @media (max-width: $breakpoint-sm) {
+      margin: 0 0 $spacer/2 0;
+      width: 100%;
+    }
+
     .title {
       color: #000;
     }
+
     .nth {
       color: $color-primary;
     }
