@@ -1,25 +1,36 @@
+- name: Jessica Rudder
+  twitter: JessRudder
+  title: "The Good Bad Bug: Fail Your Way to Better Code"
+  description: "<p>Programming history is filled with bugs that turned out to be features and limitations that pushed developers to make even more interesting products. We’ll journey through code that was so ‘bad’ it was actually good. Along the way we&#39;ll look at the important role failure plays in learning. Then we’ll tame our inner perfectionists and tackle an approach to writing code that will help us fail spectacularly on our way to coding success.</p>"
+  bio: Jessica is an engineer at GitHub with a passion for clean code and the Kansas City Royals. She once ran 70 miles through the Santa Monica Mountains "just for fun". When she's not writing code, she can be found running aimlessly through city streets training for her next ultra or creating code-related videos on YouTube for CompChomp. She is an avid squirrel photographer and loves the color green.
+
+- name: Aaron Patterson
+  twitter: tenderlove
+  title: Analyzing and Reducing Ruby Memory Usage
+  description: "<p>Memory usage can be difficult to analyze.  In this presentation we will cover different techniques for analyzing memory usage of a Ruby process including in-process analysis tools as well as system level tools.  After doing memory analysis, we&#39;ll look at some ways to reduce overall memory used by the system.  Attendees will leave with practical tips and tricks for memory analysis in their Ruby systems, as well as a better understanding of Ruby internals.</p>"
+  bio: Aaron is on the Ruby core team, the Rails core team, and the team that takes care of his cat, Gorby puff.  During the day he works for a small technology company called GitHub.  Someday he will find the perfect safety gear to wear while extreme programming.
+
 - name: Scott Bellware
-  twitter: "@sbellware"
+  twitter: sbellware
   title: Evented Autonomous Services in Ruby
-  description: "<p>Whether you call it microservices or SOA, service autonomy is the quality of the architecture that dictates whether you end up with the services implementation of your dreams, or a tangled mess of mere web services that makes you wish you’d stayed with your monolith. Events, Event Streams, and Event Sourcing are the path of least resistance to service architecture, and the only way to realize the service autonomy that keeps your efforts from going off the rails. With examples of service components produced entirely in Ruby, this presentation describes the patterns and anti patterns of service architecture, and demonstrates the basics of message and event-oriented design, development, and testing.</p>"
-  bio: Scott Bellware works with development teams on monolith remediation, as well as autonomous services projects. He’s been on a five-year mission to incorporate all the good things he’s learned in the distributed systems world with all the good things he’s learned in the Ruby world. Scott is a contributor to the Eventide toolkit for event-sourced autonomous services in Ruby.
+  description: "<p>Whether you call it microservices or SOA, service autonomy is the quality of the architecture that dictates whether you end up with the services implementation of your dreams, or a tangled mess. Event Sourcing is the path of least resistance to service architecture, and the only way to realize the service autonomy that keeps your efforts from going off the rails. With examples of service components produced entirely in Ruby, this presentation describes the patterns and anti patterns of service architecture, and demonstrates the basics of message and event-oriented design, development, and testing.</p>"
+  bio: Scott works with development teams on monolith remediation, as well as autonomous services projects. Scott is a contributor to the Eventide toolkit for event-sourced autonomous services in Ruby.
 
 - name: Danielle Adams
-  twitter: "@adamzdanielle"
-  title: "Locking It Down with Ruby & Lockfiles"
+  twitter: adamzdanielle
+  title: "Locking It Down with Ruby and Lockfiles"
   description: "<p>Anyone that&#39;s developed with open source has probably been burned by a dependency issue of some sort. The time spent (minutes? hours? years?) debugging dependency-related code adds up- but lockfiles drastically reduce the headache! I&#39;d like to discuss the ins and outs of dependency management in Ruby, a little history, and how lockfiles give us our valuable development time back.</p>"
   bio: Danielle is a full-stack software engineer in New York. Her expertise stretches between front-end heavy web applications and a variety of back-ends, built in Ruby. In her free time, she enjoys live music, food, teaching others to code, and hanging out with her cat.
 
 - name: Kir Shatrov
-  twitter: "@kirshatrov"
+  twitter: kirshatrov
   title: Running Jobs at Scale
   description: "<p>We hear talk about running 1,000s of RPS on Rails, but what about running 1,000s of jobs per second? Jobs often go unnoticed and have much fewer patterns than controllers or models in Rails. def; perform; end, done!</p>
 <p>In this talk, you&#39;ll learn the patterns we enforce at Shopify for writing jobs at scale. How do you deal with jobs that run for days or weeks when you fail over data-centers? How can you automatically partition workloads over multiple workers? How can you help developers write idempotent jobs? By giving jobs a bit more structure, we can greatly improve their utility.</p>"
-  bio: "Kir Shatrov is a Platform Engineer at Shopify where he works on application scalability and resiliency.
-When not into working, Kir enjoys cooking delicious food and gastronomic travels."
+  bio: "Kir is a Platform Engineer at Shopify where he works on application scalability and resiliency. When not into working, Kir enjoys cooking delicious food and gastronomic travels."
 
 - name: Melissa Wahnish
-  twitter: "@_rubythursday_"
+  twitter: _rubythursday_
   title: Encryption Pitfalls and Workarounds
   description: "<p>With ongoing attacks on consumer sites and the looming GDPR deadline approaching, protecting user personal information is more important than ever.  In this talk, you will learn about:</p>
   <ol>
@@ -28,62 +39,53 @@ When not into working, Kir enjoys cooking delicious food and gastronomic travels
   <li>Challenges and workarounds for encryption at scale</li>
   </ol>
   <p>By the end of the talk you’ll be inspired to encrypt your users’ data as well!</p>"
-  bio: Melissa Wahnish is the founder of RubyThursday, a free weekly online show that gives junior Rails developers bite sized tutorials, tips and tricks to help them grow.  She co-organizes the Ruby Roundtable Meetup, the longest running Ruby meetup in NYC.  Along with her husband, she builds startups for non-technical entrepreneurs. She loves sci-fi and knitting.
+  bio: Melissa is the founder of RubyThursday, a free weekly online show that gives junior Rails developers bite sized tutorials, tips and tricks to help them grow. She co-organizes the Ruby Roundtable Meetup. Along with her husband, she builds startups for non-technical entrepreneurs. She loves sci-fi and knitting.
 
 - name: Megan Tiu
-  twitter: "@megantiu"
+  twitter: megantiu
   title: The Practical Guide to Building an Apprenticeship
   description: "<p>Currently, our industry has a surplus of bright junior developers, but a lack of open junior positions. Building a developer apprenticeship in your organization is a great way to provide a haven for these talented devs, while simultaneously making your team more productive and easing the pain of hiring.</p>
 <p>In this talk, you&#39;ll learn from the mistakes I&#39;ve made and wins I&#39;ve had in creating an apprenticeship. From pitching the idea to growing your apprentices, you&#39;ll gain a step-by-step guide to successfully building your own apprenticeship program.</p>"
-  bio: Megan Tiu is a Senior Software Engineer at CallRail that loves solving problems with Ruby and helping other developers grow. She works to make technology more accessible to women and people of underrepresented groups in any way she can. Megan also hopes to pet every dog in existence.
+  bio: Megan is a Senior Software Engineer at CallRail that loves solving problems with Ruby and helping other developers grow. She works to make technology more accessible to women and people of underrepresented groups in any way she can. Megan also hopes to pet every dog in existence.
 
 - name: Andy Croll
-  twitter: "@andycroll"
+  twitter: andycroll
   title: The Impermanence of Software
   description: "<p>As engineers we place a lot of emphasis in the things that we build. However lots of the software we write is destined for deletion. What does this do to our definition of &#39;doing great work&#39;?</p>
   <p>Is &quot;great work&quot; inherent to the code you write? Is it your customer&#39;s results? Is it anything to do with the output in the first place?</p>
   <p>Come and examine the role of teams, personal relationships and your own attitude in your day to day work, as well as in the broader cycle of a whole career and our industry.</p>"
-  # bio:
+  bio: Andy is a freelance CTO, a Rubyist, a conference organizer, an author, a speaker and a parent of twins. He is tired a lot.
 
 - name: Kelly Sutton
-  # twitter: "@twitter"
+  twitter: kellysutton
   title: "I've Made a Huge Mistake: We Did Services All Wrong"
-  description: "<p>In the recent years, microservices have been an investment among many engineering teams as they scale. They are often the default of many new companies.</p>
-<p>But how has that gone wrong?</p>
-<p>This talk will dive into how one company of ~100 engineers refined their thinking on their service-based architecture for the better. This company transacts more than $1 billion per month and started with a Rails monolith. What were the false starts in breaking apart the monolith? How did they decide to undo certain service boundaries? How has keeping the monolith together helped the business? How has it hurt?</p>
-<p>This talk will cover reasoning about services; drawing boundaries in large Rails applications; the differences between services and applications; and when to finally extract a new application.</p>"
-  bio: "Kelly Sutton is an engineering manager at Gusto.
-
-In the past, he created LayerVault, Designer News, and a blog for college students. He is currently based in San Francisco, CA.
-He regularly writes blog posts about software engineering at <a href='https://kellysutton.com' target='_blank'>https://kellysutton.com</a>"
+  description: "<p>In the recent years, microservices have been an investment among many engineering teams as they scale. They are often the default of many new companies. But how has that gone wrong?
+<p>This talk will dive into how one company refined their thinking on their service-based architecture for the better. It will cover reasoning about services; drawing boundaries in large Rails applications; the differences between services and applications; and when to finally extract a new application.</p>"
+  bio: "Kelly is an engineering manager at Gusto. In the past, he created LayerVault, Designer News, and a blog for college students. He is currently based in San Francisco, CA. He regularly writes blog posts about software engineering at <a href='https://kellysutton.com' target='_blank'>https://kellysutton.com</a>"
 
 - name: Joe Leo
-  twitter: "@jleo3"
+  twitter: jleo3
   title: Writing Ruby Like it's 2018
-  description: "<p>These days new Ruby releases are regarded with less and less fanfare. We rejoiced at all the new features and support of Ruby 1.9 and 2.0! Since then, we&#39;ve become a bit jaded. </p>
-<p>&quot;Refinements? Yeah, they&#39;re OK.&quot; <br>
-&quot;Immutable String pragma? Yawn!&quot;<br>
-&quot;<code>yield_self</code>? Don&#39;t we already have <code>tap</code>?</p>
-<p>In fact, Ruby has delivered in myriad ways over the last several releases. From more support for functional-style programming to vast speed improvements, the Ruby core team is firing on all cylinders.</p>
-<p>Let&#39;s talk about what&#39;s been done, what&#39;s on the horizon, and get excited about programming Ruby again!</p>"
-  bio: "Joe Leo is the founder and president of Def Method. After spending more than a decade delivering high-quality software solutions spanning government, education, finance and e-commerce, Joe set out to offer something unique in New York City: a development shop of talented engineers who can step back and see the bigger picture. Joe brings his mix of engineering muscle, business acumen, enthusiasm for challenges, and technical leadership to the helm of every Def Method project."
+  description: "<p>These days new Ruby releases are regarded with less and less fanfare. We rejoiced at all the new features and support of Ruby 1.9 and 2.0! Since then, we've become a bit jaded: <em>&quot;Refinements? Yeah, they&#39;re OK.&quot; &quot;Immutable String pragma? Yawn!&quot; &quot;<code>yield_self</code>? Don't we already have <code>tap</code>?</em></p>
+<p>In fact, Ruby has delivered in myriad ways over the last several releases. From more support for functional-style programming to vast speed improvements, the Ruby core team is firing on all cylinders. Let's talk about what&#39;s been done, what&#39;s on the horizon, and get excited about programming Ruby again!</p>"
+  bio: "Joe is the founder and president of Def Method. After spending more than a decade delivering high-quality software solutions spanning government, education, finance and e-commerce, Joe set out to offer something unique in New York City: a development shop of talented engineers who can step back and see the bigger picture."
 
 - name: Rushaine McBean
-  twitter: "@copasetickid"
+  twitter: copasetickid
   title: "Building Efficient APIs with JSON-API"
   description: "<p>Most web applications have RESTful APIs for either internal or external use or mobile apps and that comes with many approaches to design and standardize for a team. If you’re already using JSON responses, following the JSON API spec is a natural progression to provide consistent responses. In this talk, I will give an introduction to the spec,  it’s main feature benefits, how it can be implemented in a Rails app and the lessons learned. </p>"
-  bio: Rushaine McBean is a software engineer who specializes in building JavaScript and Ruby on Rails web applications. She picked up JavaScript as her first web technology then Ruby on Rails to serve as her API and hasn’t looked back. When she’s not writing code for current employer Kickstarter, she’s working on side projects to stay update to with JavaScript & Ruby on Rails technologies or helping run Manhattan.js a local JS meetup in NYC.
+  bio: Rushaine is a software engineer who specializes in building JavaScript and Ruby on Rails web applications. When she’s not writing code for Kickstarter, she’s working on side projects to stay update to with current technologies or helping run Manhattan.js a local JS meetup in NYC.
 
 - name: Desmond Rawls
-  twitter: "@okokillgo"
+  twitter: okokillgo
   title: The Twelve-Factor Function
   description: "<p>PaaS, CaaS, or FaaS? Each year brings more options for where to run a piece of code. As application developers we follow guidelines like The Twelve-Factor App to make sure our apps can run anywhere. But what about our functions? How do we make sure our functions can run anywhere?</p>
-<p>In this demonstration, I will migrate business logic from a javascript client to a server monolith, then to micro-services, and finally to a collection of functions running as services. In the process, I will highlight how well-known concepts like referential transparency, robustness and the interface segregation principle free us from caring where our software deploys to.</p>"
+<p>In this talk, I will migrate business logic from a javascript client to a server monolith, then to micro-services, and finally to a collection of functions running as services. In the process, I will highlight how well-known concepts like referential transparency, robustness and the interface segregation principle free us from caring where our software deploys to.</p>"
   bio: Desmond is a passionate explorer of new ideas. He likes working in software because he experiences so many different industries and perspectives. He thinks the philosophical side of what developers do is drastically under-rated and hopes to change that.
 
 - name: Sam Phippen
-  twitter: "@samphippen"
+  twitter: samphippen
   title: After Death
   description: "<p>We all operate software, and we all know that it can fail. There&#39;s nothing quite like that adrenaline inducing, heart rate raising, spine tingling moment when you know something is broken, and you are the one to fix it. But the question is, once you&#39;ve fixed it, what happens afterwards? How do you make this never happen again?</p>
 <p>In this talk, you&#39;ll learn about postmortem analysis. A tool you can apply to make your production software more resilient to failure. You&#39;ll learn how to understand human vs machine cause, and how to operate your software a little better. This talk is technical, but should be accessible to Ruby developers of all skill level.</p>"
-  bio:
+  bio: Sam is an engineer at DigitalOcean. He comes to the table with enthusiasm, and a great deal of love for the Ruby community. He fights for the forces of justice as a member of the RSpec core team. He's sad that he can't hug every cat.

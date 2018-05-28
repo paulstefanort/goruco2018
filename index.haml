@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+%section#announcement
+  %h1
+    Goruco is a one day, single track conference in New York City
+
+  .details
+    %p.venue The Altman Building,<br/>135 West 18th Street, NYC
+    %p.day 16
+    %p.month June
+    %p.year 2018
+
+  .cta
+    %a.button(href="https://ti.to/goruco/2018#tito-releases" target="_blank")
+      Purchase a ticket
+
+%section#speakers
+  %h2
+    Speakers
+
+  .speakers
+    == {% for speaker in site.data.speakers %}
+    .speaker
+      .speaker-id
+        %img(src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg")
+        %h3
+          <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
+          == {{ speaker.name }}
+          </a>
+
+      .speaker-excerpt
+        %h4== {{ speaker.title }}
+        %p== {{ speaker.description }}
+    == {% endfor %}
+
+%section#venue
+  %a#map{href: "https://goo.gl/maps/f85YyYcYR3L2"}
+    .location
+      %h3 via 1, 2, 3, F, M, AND L TRAINS.
+
+%section#schedule
+  %h2 Schedule
+  %ol.schedule
+    == {% for schedule in site.data.schedule %}
+    %li.schedule-item
+      %p.time== {{ schedule.time }}
+      .talk-details
+        %h3== {{ schedule.title }}
+        %p.speaker_name== {{ schedule.name }}
+    == {% endfor %}
+
+%section#sponsors
+  .prospectus
+    %h2 Sponsors
+    %p A huge thanks to our amazing sponsors
+    %p
+      %a.button(href="/assets/sponsor-prospectus.pdf" target="_blank")
+        Become A Sponsor
+
+  .levels
+    .gold.level
+      %h3 Gold sponsors
+      .logos
+        %a(href="http://www.stridenyc.com/" class="stride "target="_blank")
+          <img src="/assets/images/sponsors/stride.png" alt="Stride" />
+
+        %a(href="http://xogroupinc.com/" class="xo-group" target="_blank")
+          <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
+
+        %a(href="#" class="coming" target="_blank")
+          <img src="" alt="Sponsor logo" />
+
+        %a(href="#" class="coming" target="_blank")
+          <img src="" alt="Sponsor logo" />
+
+    .silver.level
+      %h3 Silver sponsors
+      .logos
+        %a(href="http://defmethod.com/" class="def-method" target="_blank")
+          <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+
+        %a(href="http://www.justworks.com/" class="just-works" target="_blank")
+          <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
+
+    .bronze.level
+      %h3 Bronze sponsors
+      .logos
+        %a(href="http://www.wyeworks.com/" class="wyeworks" target="_blank")
+          <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
+
+%section#scholarships
+  %h2 Scholarships
+  %p
+    We aim to remove obstacles for attendees from under-represented minorities
+    and strive for equal access for everyone.
+    %a.button(href="https://goruco18.typeform.com/to/QkZ7UI" target="_blank")
+      Apply for a scholarship ticket!
+
+  %p
+    In addition, we thank our scholarship sponsors who help make it possible:
+
+  .sponsors
+    %a(href="http://defmethod.com/" class="def-method" target="_blank")
+      <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+
+    %a(href="http://www.optoro.com/" class="optoro" target="_blank")
+      <img src="/assets/images/sponsors/optoro.png" alt="Optoro" />
+
+    %a(href="http://www.sayrhino.com/" class="rhino" target="_blank")
+      <img src="/assets/images/sponsors/rhino.png" alt="Say Rhino" />
+
+%section#organizers
+  %h4
+    GORUCO 2018 is organized with <span class="heart">&#9829;</span>
+    by these happy and hardworking volunteers
+  .organizers
+    {% for organizer in site.data.organizers %}
+    .organizer
+      <img src="/assets/images/organizers/{{ organizer.name | slugify }}.jpg" />
+      .organizer-description
+        %h5 {{ organizer.name }}
+        <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">{{organizer.twitter }}</a>
+  {% endfor %}

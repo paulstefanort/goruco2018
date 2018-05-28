@@ -1,3 +1,83 @@
-$white: #ffffff;
-$type-large: 56px;
-$type-secondary: #7C7C7C;
+// Colours
+// Grayscale and brand colours
+
+$color-primary:              #cc2a41;
+$color-blueviolet:           #9877ea;
+$color-red:                  #c54041;
+$color-gold:                 #b99769;
+$color-dark:                 #333;
+$color-dark-light:           #242526;
+$color-heading:              #242424;
+$color-white:                #fff;
+$color-white-opacity:        rgba($color-white,.8);
+$color-white-opacity-light:  rgba($color-white,.5);
+$color-white-opacity-lighter:rgba($color-white,.3);
+$color-white-opacity-lightest:rgba($color-white,.1);
+$color-text:                 #656565;
+$color-gray-light:           #cecece;
+$color-gray-lighter:         #aeaeae;
+$color-sky-light:            #f5f8f9;
+
+// Body
+// Settings for the `<body>` element.
+
+$bg-color-body:             $color-white;
+$color-body:                $color-dark;
+
+// // Typography
+// // Font, line-height, and color for body text, headings, and more.
+
+$font-family-primary:       Lato, sans-serif;
+$font-family-secondary:     Montserrat, sans-serif;
+
+$line-height:                1.6;
+
+$headings-margin-bottom:     .75rem;
+$headings-font-weight:       400;
+$headings-line-height:       1.2;
+
+// Navbar
+$navbar-height:             5.5rem;
+$navbar-height-shrink:      3.4375rem;
+
+// Options
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-hover-media-query:          false;
+$enable-child-media-query:          false;
+$enable-before-after-media-query:   false;
+
+// Spacing
+// Control the default styling of most Dublin elements by modifying these
+// variables. Mostly focused on spacing.
+$spacer:                    1rem;
+$spacer-x:                  $spacer;
+$spacer-y:                  $spacer;
+$border-width:              .0625rem;
+
+// Grid breakpoints
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$breakpoint-sm: 767px;
+
+
+// Typography
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+
+$font-size-root: 16px;
+
+$font-size-10: .625rem;
+$font-size-12: .75rem;
+$font-size-14: .875rem;
+$font-size-16: 1rem;
+$font-size-18: 1.125rem;
+$font-size-20: 1.25rem;
+$font-size-24: 1.5rem;
+$font-size-32: 2rem;
+$font-size-40: 2.5rem;
+$font-size-48: 3rem;
+$font-size-80: 5rem;
+$font-size-100: 6.25rem;
+$font-size-120: 7.5rem;
+$font-size-140: 8.75rem;
+$font-size-150: 9.375rem;

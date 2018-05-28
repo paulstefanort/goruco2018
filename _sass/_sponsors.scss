@@ -1,0 +1,125 @@
+#sponsors {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: auto;
+  grid-column-gap: $spacer;
+  grid-row-gap: $spacer;
+  padding: $spacer $spacer*4;
+
+  @media (max-width: $breakpoint-sm) {
+    grid-template-columns: auto;
+    padding: $spacer;
+    text-align: center;
+  }
+
+  .prospectus {
+    grid-row: 1;
+    grid-column: 1;
+
+    h2 {
+      font-size: $font-size-40;
+      text-align: left;
+
+      @media (max-width: $breakpoint-sm) {
+        text-align: center;
+      }
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    .button {
+      margin: 0;
+
+      @media (max-width: $breakpoint-sm) {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .levels {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: $spacer * 1.2;
+
+    @media (max-width: $breakpoint-sm) {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+
+  .level {
+    border-bottom: 1px solid $color-gray-lighter;
+    display: grid;
+    grid-template-columns: 166px auto;
+    grid-template-rows: auto;
+    grid-column-gap: $spacer;
+    grid-row-gap: $spacer;
+    margin-bottom: $spacer * 2;
+
+    @media (max-width: $breakpoint-sm) {
+      grid-template-columns: auto;
+    }
+  }
+
+  h3 {
+    align-items: start;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: $font-size-20;
+
+    @media (max-width: $breakpoint-sm) {
+      margin: $spacer auto;
+      width: 100%;
+    }
+  }
+
+  .logos {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-row: 1;
+    grid-column: 2;
+
+    @media (max-width: $breakpoint-sm) {
+      align-items: center;
+      flex-direction: column;
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+
+  a {
+    display: inline-block;
+    min-width: 40%;
+    text-align: center;
+
+    &.coming { /* remove when adding new sponsor logos */
+      min-height: 100px;
+    }
+  }
+
+  img {
+    filter: grayscale(100%);
+    margin: 0 $spacer $spacer 0;
+    max-height: 160px;
+
+    @media (max-width: $breakpoint-sm) {
+      max-height: 100px;
+    }
+  }
+
+  .xo-group img {
+    max-height: 120px;
+  }
+
+  .silver img {
+    max-height: 80px;
+  }
+
+  .bronze img {
+    max-height: 40px;
+  }
+}
