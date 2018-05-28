@@ -52,38 +52,43 @@ layout: default
     == {% endfor %}
 
 %section#sponsors
-  .group
+  .prospectus
     %h2 Sponsors
     %p A huge thanks to our amazing sponsors
-    %p.prospectus
+    %p
       %a.button(href="/assets/sponsor-prospectus.pdf" target="_blank")
         Become A Sponsor
 
-  .gold.sponsor-group
-    %h3 Gold sponsors
-    %article.stride
-      %a(href="http://www.stridenyc.com/" target="_blank")
-        <img src="/assets/images/sponsors/stride.png" alt="Stride" />
+  .levels
+    .gold.level
+      %h3 Gold sponsors
+      .logos
+        %a(href="http://www.stridenyc.com/" class="stride "target="_blank")
+          <img src="/assets/images/sponsors/stride.png" alt="Stride" />
 
-    %article.xo-group
-      %a(href="http://xogroupinc.com/" target="_blank")
-        <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
+        %a(href="http://xogroupinc.com/" class="xo-group" target="_blank")
+          <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
 
-  .silver.sponsor-group
-    %h3 Silver sponsors
-    %article.def-method
-      %a(href="http://defmethod.com/" target="_blank")
-        <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+        %a(href="#" class="coming" target="_blank")
+          <img src="" alt="Sponsor logo" />
 
-    %article.just-works
-      %a(href="http://www.justworks.com/")
-        <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
+        %a(href="#" class="coming" target="_blank")
+          <img src="" alt="Sponsor logo" />
 
-  .bronze.sponsor-group
-    %h3 Bronze sponsors
-    %article.wyeworks
-      %a(href="http://www.wyeworks.com/")
-        <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
+    .silver.level
+      %h3 Silver sponsors
+      .logos
+        %a(href="http://defmethod.com/" class="def-method" target="_blank")
+          <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+
+        %a(href="http://www.justworks.com/" class="just-works" target="_blank")
+          <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
+
+    .bronze.level
+      %h3 Bronze sponsors
+      .logos
+        %a(href="http://www.wyeworks.com/" class="wyeworks" target="_blank")
+          <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
 
 %section#scholarships
   %h2 Scholarships
@@ -96,18 +101,15 @@ layout: default
   %p
     In addition, we thank our scholarship sponsors who help make it possible:
 
-  .sponsor-group
-    %article.def-method
-      %a(href="http://defmethod.com/" target="_blank")
-        <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+  .sponsors
+    %a(href="http://defmethod.com/" class="def-method" target="_blank")
+      <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
 
-    %article.optoro
-      %a(href="http://www.optoro.com/" target="_blank")
-        <img src="/assets/images/sponsors/optoro.png" alt="Optoro" />
+    %a(href="http://www.optoro.com/" class="optoro" target="_blank")
+      <img src="/assets/images/sponsors/optoro.png" alt="Optoro" />
 
-    %article.rhino
-      %a(href="http://www.sayrhino.com/" target="_blank")
-        <img src="/assets/images/sponsors/rhino.png" alt="Say Rhino" />
+    %a(href="http://www.sayrhino.com/" class="rhino" target="_blank")
+      <img src="/assets/images/sponsors/rhino.png" alt="Say Rhino" />
 
 %section#organizers
   %h4

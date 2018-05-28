@@ -1,4 +1,6 @@
 #scholarships {
+  margin: 0 0 $spacer*2 0;
+
   h2 {
     font-size: $font-size-40;
     text-align: center;
@@ -15,7 +17,9 @@
     max-width: 265px;
   }
 
-  .sponsor-group {
+  .sponsors {
+    align-items: center;
+    display: flex;
     justify-content: center;
 
     .def-method img {
