@@ -31,7 +31,8 @@ layout: default
           </a>
 
       .speaker-excerpt
-        %p== {{ speaker.bio }}
+        %h4== {{ speaker.title }}
+        %p== {{ speaker.description }}
     == {% endfor %}
 
 %section#venue

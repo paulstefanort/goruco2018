@@ -13,7 +13,7 @@
 - name: Scott Bellware
   twitter: sbellware
   title: Evented Autonomous Services in Ruby
-  description: "<p>Whether you call it microservices or SOA, service autonomy is the quality of the architecture that dictates whether you end up with the services implementation of your dreams, or a tangled mess of mere web services that makes you wish you’d stayed with your monolith. Events, Event Streams, and Event Sourcing are the path of least resistance to service architecture, and the only way to realize the service autonomy that keeps your efforts from going off the rails. With examples of service components produced entirely in Ruby, this presentation describes the patterns and anti patterns of service architecture, and demonstrates the basics of message and event-oriented design, development, and testing.</p>"
+  description: "<p>Whether you call it microservices or SOA, service autonomy is the quality of the architecture that dictates whether you end up with the services implementation of your dreams, or a tangled mess. Event Sourcing is the path of least resistance to service architecture, and the only way to realize the service autonomy that keeps your efforts from going off the rails. With examples of service components produced entirely in Ruby, this presentation describes the patterns and anti patterns of service architecture, and demonstrates the basics of message and event-oriented design, development, and testing.</p>"
   bio: Scott works with development teams on monolith remediation, as well as autonomous services projects. Scott is a contributor to the Eventide toolkit for event-sourced autonomous services in Ruby.
 
 - name: Danielle Adams
@@ -59,21 +59,15 @@
 - name: Kelly Sutton
   twitter: kellysutton
   title: "I've Made a Huge Mistake: We Did Services All Wrong"
-  description: "<p>In the recent years, microservices have been an investment among many engineering teams as they scale. They are often the default of many new companies.</p>
-<p>But how has that gone wrong?</p>
-<p>This talk will dive into how one company of ~100 engineers refined their thinking on their service-based architecture for the better. This company transacts more than $1 billion per month and started with a Rails monolith. What were the false starts in breaking apart the monolith? How did they decide to undo certain service boundaries? How has keeping the monolith together helped the business? How has it hurt?</p>
-<p>This talk will cover reasoning about services; drawing boundaries in large Rails applications; the differences between services and applications; and when to finally extract a new application.</p>"
+  description: "<p>In the recent years, microservices have been an investment among many engineering teams as they scale. They are often the default of many new companies. But how has that gone wrong?
+<p>This talk will dive into how one company refined their thinking on their service-based architecture for the better. It will cover reasoning about services; drawing boundaries in large Rails applications; the differences between services and applications; and when to finally extract a new application.</p>"
   bio: "Kelly is an engineering manager at Gusto. In the past, he created LayerVault, Designer News, and a blog for college students. He is currently based in San Francisco, CA. He regularly writes blog posts about software engineering at <a href='https://kellysutton.com' target='_blank'>https://kellysutton.com</a>"
 
 - name: Joe Leo
   twitter: jleo3
   title: Writing Ruby Like it's 2018
-  description: "<p>These days new Ruby releases are regarded with less and less fanfare. We rejoiced at all the new features and support of Ruby 1.9 and 2.0! Since then, we&#39;ve become a bit jaded. </p>
-<p>&quot;Refinements? Yeah, they&#39;re OK.&quot; <br>
-&quot;Immutable String pragma? Yawn!&quot;<br>
-&quot;<code>yield_self</code>? Don&#39;t we already have <code>tap</code>?</p>
-<p>In fact, Ruby has delivered in myriad ways over the last several releases. From more support for functional-style programming to vast speed improvements, the Ruby core team is firing on all cylinders.</p>
-<p>Let&#39;s talk about what&#39;s been done, what&#39;s on the horizon, and get excited about programming Ruby again!</p>"
+  description: "<p>These days new Ruby releases are regarded with less and less fanfare. We rejoiced at all the new features and support of Ruby 1.9 and 2.0! Since then, we've become a bit jaded: <em>&quot;Refinements? Yeah, they&#39;re OK.&quot; &quot;Immutable String pragma? Yawn!&quot; &quot;<code>yield_self</code>? Don't we already have <code>tap</code>?</em></p>
+<p>In fact, Ruby has delivered in myriad ways over the last several releases. From more support for functional-style programming to vast speed improvements, the Ruby core team is firing on all cylinders. Let's talk about what&#39;s been done, what&#39;s on the horizon, and get excited about programming Ruby again!</p>"
   bio: "Joe is the founder and president of Def Method. After spending more than a decade delivering high-quality software solutions spanning government, education, finance and e-commerce, Joe set out to offer something unique in New York City: a development shop of talented engineers who can step back and see the bigger picture."
 
 - name: Rushaine McBean
@@ -86,7 +80,7 @@
   twitter: okokillgo
   title: The Twelve-Factor Function
   description: "<p>PaaS, CaaS, or FaaS? Each year brings more options for where to run a piece of code. As application developers we follow guidelines like The Twelve-Factor App to make sure our apps can run anywhere. But what about our functions? How do we make sure our functions can run anywhere?</p>
-<p>In this demonstration, I will migrate business logic from a javascript client to a server monolith, then to micro-services, and finally to a collection of functions running as services. In the process, I will highlight how well-known concepts like referential transparency, robustness and the interface segregation principle free us from caring where our software deploys to.</p>"
+<p>In this talk, I will migrate business logic from a javascript client to a server monolith, then to micro-services, and finally to a collection of functions running as services. In the process, I will highlight how well-known concepts like referential transparency, robustness and the interface segregation principle free us from caring where our software deploys to.</p>"
   bio: Desmond is a passionate explorer of new ideas. He likes working in software because he experiences so many different industries and perspectives. He thinks the philosophical side of what developers do is drastically under-rated and hopes to change that.
 
 - name: Sam Phippen
