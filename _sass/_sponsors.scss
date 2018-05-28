@@ -39,9 +39,14 @@
   }
 
   .levels {
-    grid-row: 1;
     grid-column: 2;
+    grid-row: 1;
     padding-top: $spacer * 1.2;
+
+    @media (max-width: $breakpoint-sm) {
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
 
   .level {
@@ -54,13 +59,14 @@
     margin-bottom: $spacer * 2;
 
     @media (max-width: $breakpoint-sm) {
+      grid-template-columns: auto;
     }
   }
 
   h3 {
     align-items: start;
-    grid-row: 1;
     grid-column: 1;
+    grid-row: 1;
     font-size: $font-size-20;
 
     @media (max-width: $breakpoint-sm) {
@@ -76,6 +82,13 @@
     justify-content: space-between;
     grid-row: 1;
     grid-column: 2;
+
+    @media (max-width: $breakpoint-sm) {
+      align-items: center;
+      flex-direction: column;
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
 
   a {

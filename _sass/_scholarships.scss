@@ -22,6 +22,16 @@
     display: flex;
     justify-content: center;
 
+    @media (max-width: $breakpoint-sm) {
+      flex-direction: column;
+    }
+
+    img {
+      filter: grayscale(100%);
+      margin: 0 $spacer $spacer 0;
+      max-height: 160px;
+    }
+
     .def-method img {
       max-height: 70px;
     }
