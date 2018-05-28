@@ -111,11 +111,15 @@
     }
   }
 
+  .xo-group img {
+    max-height: 120px;
+  }
+
   .silver img {
-    max-height: 100px;
+    max-height: 80px;
   }
 
   .bronze img {
-    max-height: 80px;
+    max-height: 40px;
   }
 }
