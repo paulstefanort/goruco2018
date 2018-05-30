@@ -1,17 +1,49 @@
-<header class="header">
-  <a class="logo" href="/">
-    <span class="title">Goruco</span>
-    <span class="nth">XII</span>
-  </a>
-  <nav class="nav-links">
-    <a href="https://ti.to/goruco/2018#tito-releases" target="_blank">Tickets</a>
-    <a href="/#speakers">Speakers</a>
-    <a href="/#venue">Venue</a>
-    <a href="/#schedule">Schedule</a>
-    <a href="/#sponsors">Sponsors</a>
-    <a href="/#scholarships">Scholarships</a>
-    <a href="/#contact">Contact</a>
-    <a href="http://videos.goruco.com/" target="_blank">Videos</a>
-  </nav>
-</header>
+<header>
+  <div class='header'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-3 col-xs-12'>
+          <a href='/'>
+            <img src="{{site.url}}/assets/images/ruby.png" />
+            <span class='title'>Goruco</span>
+          </a>
+        </div>
 
+        <div class='col-xs-9 pull-right hidden-xs'>
+          <div class='nav-links hidden-xs'>
+            <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a>
+            {% if page.url == '/beta' %}
+              <a href="{% if page.url != '/beta' %}/{% endif %}#speakers">Speakers</a>
+            {% endif %}
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#scholarship-sponsors">Scholarships</a>
+            <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a>
+            <!-- <a href="/blog">News</a> -->
+            <a href="/about">About</a>
+            <!-- <a href="{% if page.url != '/index.html' %}/{% endif %}#contact">Contact</a> -->
+            <a href="http://videos.goruco.com/" target="_blank">Videos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='mobile-links'>
+    <div class='nav-links slider-nav visible-xs'>
+      <button id="menu-button" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-label="Left Align">
+        <span class="fa fa-bars"></span>
+      </button>
+      <ul class='dropdown-menu'>
+        <li> <a href="https://ti.to/goruco/2018" target="_blank">Tickets</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#speakers">Speakers</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#sponsors">Sponsors</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#schedule">Schedule</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#scholarship-sponsors">Scholarships</a></li>
+        <li> <a href="{% if page.url != '/index.html' %}/{% endif %}#photos">Photos</a></li>
+        <li> <a href="/about">About</a></li>
+        <li> <a href="http://videos.goruco.com/" target="_blank">Videos</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
