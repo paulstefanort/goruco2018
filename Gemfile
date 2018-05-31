@@ -10,6 +10,7 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 group :jekyll_plugins do
   gem "github-pages"
+  # gem "jekyll-haml-markup"
   gem "jekyll-haml"
 end
 

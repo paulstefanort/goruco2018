@@ -23,7 +23,7 @@ layout: default
   .speakers
     == {% for speaker in site.data.speakers %}
     .speaker
-      .speaker-id
+      .speaker-id{id: '{{ speaker.name | slugify }}' }
         %img(src="/assets/images/speakers/{{ speaker.name | slugify }}.jpg")
         %h3
           <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">
@@ -33,6 +33,22 @@ layout: default
       .speaker-excerpt
         %h4== {{ speaker.title }}
         %p== {{ speaker.description }}
+
+      .speaker-modal.modal.fade{"aria-labelledby" => "myModalLabel", :id => "modal-{{ speaker.name | slugify }}", :role => "dialog", :tabindex => "-1"}
+        .modal-dialog{:role => "document"}
+          .modal-content
+            .modal-body
+              %h5 {{speaker.title}}
+              {{ speaker.description }}
+              %img.modal-image.img-responsive{:src => "/assets/images/speakers/{{ speaker.name | slugify }}.jpg"}/
+              .modal-link
+                %a{:href => "https://twitter.com/{{ speaker.twitter }}", :target => "_blank"} {{ speaker.twitter }}
+              %h4.modal-title
+                {{ speaker.name }}
+                %span.modal-location {{ speaker.location }}
+              .modal-bio
+                %i {{ speaker.bio }}
+
     == {% endfor %}
 
 %section#venue
