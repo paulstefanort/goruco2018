@@ -25,8 +25,8 @@
 
   <script type="text/javascript">
     function initialize() {
-      var locationLat = "40.74064",
-          locationLong = "-73.99702";
+      var locationLat = "40.740620",
+          locationLong = "-73.996382";, 
 
       var map = new L.Map("map", {
         center: new L.LatLng(locationLat, locationLong),
@@ -38,7 +38,7 @@
         detectRetina: true
       }));
 
-      L.circle([40.74064, -73.99702], {
+      L.circle([40.740620, -73.996382], {
         color: '#cc2a41',
         fillColor: '#cc2a41',
         fillOpacity: 0.5,
@@ -46,7 +46,7 @@
       }).addTo(map);
 
       L.popup({closeButton: false})
-        .setLatLng([40.74064, -73.99702])
+        .setLatLng([40.740620, -73.996382])
         .setContent("The Altman Building,<br/>135 West 18th Street, NYC")
         .openOn(map);
 
