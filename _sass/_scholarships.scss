@@ -29,15 +29,34 @@
     img {
       filter: grayscale(100%);
       margin: 0 $spacer $spacer 0;
-      max-height: 160px;
+      max-height: 90px;
     }
 
     .def-method img {
       max-height: 70px;
     }
 
-    .rhino img {
-      max-height: 45px;
+    .rhino, .food52, .the-harnisch-foundation, .chloe-isabel{
+      img {
+        max-height: 45px;
+      }
     }
+
+    .the-harnisch-foundation {
+      background-color: #242933;
+
+      img {
+        margin-right: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .chloe-isabel img {
+      max-height: 70px;
+    }
+  }
+
+  .scholarship {
+    margin: auto 10px;
   }
 }
