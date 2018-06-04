@@ -18,6 +18,7 @@ layout: default
     </a>
   </div>
 </section>
+
 <section id='speakers'>
   <h2>
     Speakers
@@ -64,8 +65,8 @@ layout: default
     </div>
   {% endfor %}
   </div>
-
 </section>
+
 <section id='venue'>
   <a href='https://goo.gl/maps/f85YyYcYR3L2' id='map'>
     <div class='location'>
@@ -73,6 +74,7 @@ layout: default
     </div>
   </a>
 </section>
+
 <section id='schedule'>
   <h2>Schedule</h2>
   <ol class='schedule'>
@@ -199,6 +201,7 @@ layout: default
 
   </ol>
 </section>
+
 <section id='sponsors'>
   <div class='prospectus'>
     <h2>Sponsors</h2>
@@ -210,36 +213,20 @@ layout: default
     </p>
   </div>
   <div class='levels'>
-    <div class='gold level'>
-      <h3>Gold sponsors</h3>
-      <div class='logos'>
-        <a class='stride ' href='http://www.stridenyc.com/' target='_blank'>
-          <img src="/assets/images/sponsors/stride.png" alt="Stride" />
-        </a>
-        <a class='xo-group' href='http://xogroupinc.com/' target='_blank'>
-          <img src="/assets/images/sponsors/xo-group.png" alt="XO-Group" />
-        </a>
+    {% for level in site.data.sponsors %}
+    {% assign sponsor_level = level[0] %}
+      <div class="{{sponsor_level}} level">
+        <h3>{{sponsor_level | capitalize}} Sponsor</h3>
+        <div class='logos'>
+          {% for sponsor in level[1] %}
+            {% assign sponsor_slug = sponsor.name | slugify %}
+            <a class='{{sponsor_slug}}' href='{{sponsor.website}}' target='_blank'>
+              <img src="/assets/images/sponsors/{{sponsor_slug}}.png" alt="{{sponsor.name | capitalize}}" />
+            </a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-    <div class='silver level'>
-      <h3>Silver sponsors</h3>
-      <div class='logos'>
-        <a class='def-method' href='http://defmethod.com/' target='_blank'>
-          <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
-        </a>
-        <a class='just-works' href='http://www.justworks.com/' target='_blank'>
-          <img src="/assets/images/sponsors/just-works.png" alt="Justworks" />
-        </a>
-      </div>
-    </div>
-    <div class='bronze level'>
-      <h3>Bronze sponsors</h3>
-      <div class='logos'>
-        <a class='wyeworks' href='http://www.wyeworks.com/' target='_blank'>
-          <img src="/assets/images/sponsors/wyeworks.png" alt="Wyeworks" />
-        </a>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 <section id='scholarships'>
@@ -255,15 +242,12 @@ layout: default
     In addition, we thank our scholarship sponsors who help make it possible:
   </p>
   <div class='sponsors'>
-    <a class='def-method' href='http://defmethod.com/' target='_blank'>
-      <img src="/assets/images/sponsors/def-method.png" alt="Def Method" />
+    {% for sponsor in site.data.scholarships %}
+    {% assign sponsor_slug = sponsor.name | slugify %}
+    <a class='{{sponsor_slug}} scholarship' href='{{sponsor.website}}' target='_blank'>
+      <img src="/assets/images/sponsors/{{sponsor_slug}}.png" alt="{{sponsor.name}}" />
     </a>
-    <a class='optoro' href='http://www.optoro.com/' target='_blank'>
-      <img src="/assets/images/sponsors/optoro.png" alt="Optoro" />
-    </a>
-    <a class='rhino' href='http://www.sayrhino.com/' target='_blank'>
-      <img src="/assets/images/sponsors/rhino.png" alt="Say Rhino" />
-    </a>
+    {% endfor %}
   </div>
 </section>
 <section id='organizers'>
