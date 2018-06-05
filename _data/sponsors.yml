@@ -1,40 +1,40 @@
 gold:
   - name: Stride
-    website: http://www.stridenyc.com/
+    website: http://www.stridenyc.com
     bio: Stride is an Agile software development consultancy in New York City. We co-locate with engineering teams in New York (like Plated, Paddle8, Gust, Sailthru, XO Group, Intent Media) to help you up your game and get stuff done. Think of us as Agile SWAT teams. We leverage the skills of your entire team and help you improve code quality and your Agile process in perpetuity. Whether you seek process refinement help (TDD, refactoring, microservices, estimates, continuous delivery, and more) or need to get high quality code out the door to launch your MVP, Stride is here to help.
     location: New York, NY
   - name: Code Climate
-    website: https://www.codeclimate.com/
+    website: https://www.codeclimate.com
     location: New York, NY
     bio: "Code Climate is automated code review for software development teams. Our open and extensible platform analyzes every commit for complexity, duplication, security, style, test coverage, and more – so you can fix issues sooner and ship better code faster.
 <br/><br/>
 Code Climate engineers build software that runs static analysis at scale, analyzing billions lines of code daily across over thousands repositories. We use and improve the software we build every day to deliver analysis wherever you work – on premise, on the command line, in your editor, and in the cloud."
   - name: XO Group
     css_class: xogroupinc
-    website: http://xogroupinc.com/
+    website: http://xogroupinc.com
     bio: XO Group’s mission is to help people navigate and truly enjoy life’s biggest moments together through our brands The Knot, The Nest, The Bump and GigMasters.  Our agile engineering teams are focused on our users, our technology, and our products.  We have powered millions of events with our technology and continue to scale for tomorrow's celebrations.
     location: New York, NY
   - name: Publicis Media
-    css_class: publicis-media
+    website: http://www.publicisgroupe.com
+  - name: WeWork
+    website: https://www.wework.com
 
 silver:
   - name: Def Method
     css_class: defmethod
-    website: http://defmethod.com/
+    website: http://defmethod.com
     bio: At Def Method, we focus on excellence in code.  Our technical leaders focus on the difficult problems and help to apply their deep technical skills in order to deliver results.  Our team focuses both on the product and the process, helping your teams optimize efforts, even after we have completed the project.
     location: New York, NY
   - name: Just Works
     css_class: justworks
-    website: http://www.justworks.com/
+    website: http://www.justworks.com
     bio: Justworks helps businesses get off the ground by enabling them to focus on running their business. We solve HR issues. We’re data-driven and never stop iterating. If you’d like to work in a supportive, entrepreneurial environment, are interested in building something meaningful and having fun, email us at <a href="mailto:wklaynman@justworks.com" target="_blank">wklaynman@justworks.com</a>
     location: New York, NY
 
 bronze:
   - name: WyeWorks
-    website: https://wyeworks.com/
-    bio: WyeWorks is the best way to expand your Rails team. We act as if we're part of your company, adopting your process and suggesting best practices. We are Agile, we show progress every day. We do code reviews and pair programming because quality is taken to heart. Our happy clients are our best credentials.
-    location: Montevideo, Uruguay
+    website: https://wyeworks.com
   - name: SevenFifty
-    website: https://www.sevenfifty.com/
+    website: https://www.sevenfifty.com
   - name: Kickstarter
-    website: https://www.kickstarter.com/
+    website: https://www.kickstarter.com
