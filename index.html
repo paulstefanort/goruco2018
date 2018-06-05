@@ -261,7 +261,9 @@ layout: default
       <img src="/assets/images/organizers/{{ organizer.name | slugify }}.jpg" />
       <div class='organizer-description'>
         <h5> {{ organizer.name }} </h5>
+        {% if organizer.twitter %}
         <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">@{{organizer.twitter }}</a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
