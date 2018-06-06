@@ -219,11 +219,36 @@ layout: default
         <h3>{{sponsor_level | capitalize}} Sponsor</h3>
         <div class='logos'>
           {% for sponsor in level[1] %}
+          <div class="sponsor">
             {% assign sponsor_slug = sponsor.name | slugify %}
-            <a class='{{sponsor_slug}}' href='{{sponsor.website}}' target='_blank'>
+            {% assign modal_target = sponsor_level | append: "-modal-" | append: forloop.index %}
+            <a class='{{sponsor_slug}}' href='#' data-toggle="modal" data-target='{{modal_target}}'>
               <img src="/assets/images/sponsors/{{sponsor_slug}}.png" alt="{{sponsor.name | capitalize}}" />
             </a>
+
+            {% if sponsor_level != 'bronze'%}
+            <div class="modal fade" id="{{ modal_target }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="sponsor-header">
+                      <a href="{{ sponsor.website }}" target="_blank">
+                        <img class='img-responsive modal-image' src="/assets/images/sponsors/{{ sponsor_slug }}.png" />
+                      </a>
+                      <div class='modal-link'>
+                        <a href="{{ sponsor.website }}" target="_blank">{{ sponsor.website }}</a>
+                      </div>
+                    </div>
+                    {{ sponsor.bio }}
+                    <button class='js-close' data-target='{{modal_target}}'>close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+          </div>
           {% endfor %}
+
         </div>
       </div>
     {% endfor %}
@@ -261,9 +286,7 @@ layout: default
       <img src="/assets/images/organizers/{{ organizer.name | slugify }}.jpg" />
       <div class='organizer-description'>
         <h5> {{ organizer.name }} </h5>
-        {% if organizer.twitter %}
-        <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">@{{organizer.twitter }}</a>
-        {% endif %}
+        <a href="https://twitter.com/{{ organizer.twitter }}" target="_blank">{{organizer.twitter }}</a>
       </div>
     </div>
   {% endfor %}

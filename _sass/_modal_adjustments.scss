@@ -1,0 +1,33 @@
+.modal-content {
+  margin: auto;
+  width: 50%;
+
+  @media (max-width: $breakpoint-sm) {
+    width: auto;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto auto auto;
+  }
+}
+
+.modal-body {
+  @media (max-width: $breakpoint-sm) {
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+#sponsors .modal img {
+  filter: grayscale(0%);
+}
+
+.sponsor-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.modal-dialog {
+  margin-top: 30px;
+}
