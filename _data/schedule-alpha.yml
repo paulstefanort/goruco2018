@@ -1,0 +1,71 @@
+- title: "Registration"
+  name: Doors open, get your conference badge and some New York breakfast
+  time: 9:00 AM
+
+- title: "Opening Remarks"
+  name: Luke Melia
+  time: 9:50 AM
+
+- title: "Opening Keynote: The Good Bad Bug: Fail Your Way to Better Code"
+  name: Jessica Rudder
+  time: 10:00 AM
+  keynote: true
+
+- title: "Evented Autonomous Services in Ruby"
+  name: Scott Bellware
+  time: 10:35 AM
+
+- title: "Locking It Down with Ruby & Lockfiles"
+  name: Danielle Adams
+  time: 11:20 AM
+
+- title: "Running Jobs at Scale"
+  name: Kir Shatrov
+  time: 11:30 AM
+
+- title: "Encryption Pitfalls and Workarounds"
+  name: Melissa Wahnish
+  time: 11:40 PM
+
+- title: "The Practical Guide to Building an Apprenticeship"
+  name: Megan Tiu
+  time: 12:00 PM
+
+- title: "Lunch"
+  time: 12:30 PM
+
+- title: "The Impermanence of Software"
+  name: Andy Croll
+  time: 01:55 PM
+
+- title: "I've Made a Huge Mistake: We Did Services All Wrong"
+  name: Kelly Sutton
+  time: 2:30 PM
+
+- title: "Writing Ruby Like it's 2018"
+  name: Joe Leo
+  time: 3:05 PM
+
+- title: "Building Efficient APIs with JSON-API"
+  name: Rushaine McBean
+  time: 3:15 PM
+
+- title: "The Twelve-Factor Function"
+  name: Desmond Rawls
+  time: 3:25 PM
+
+- title: "Ice Cream Social"
+  time: 3:35 PM
+
+- title: "After Death"
+  name: Sam Phippen
+  time: 4:05 PM
+
+- title: "Closing Keynote: Analyzing and Reducing Ruby Memory Usage"
+  name: Aaron Patterson
+  time: 4:50 PM
+  keynote: true
+
+- title: "Closing Remarks"
+  name: Luke Melia
+  time: 5:20 PM

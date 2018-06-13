@@ -30,13 +30,16 @@
 
       var map = new L.Map("map", {
         center: new L.LatLng(locationLat, locationLong),
-        zoom: 14,
+        zoom: 15,
+        // zoom: 17,
         closePopupOnClick: false,
         scrollWheelZoom: false,
       });
       map.addLayer(new L.StamenTileLayer("toner", {
         detectRetina: true
       }));
+
+      //Altmaan
 
       L.circle([40.740620, -73.996382], {
         color: '#cc2a41',
@@ -49,6 +52,19 @@
         .setLatLng([40.740620, -73.996382])
         .setContent("The Altman Building,<br/>135 West 18th Street, NYC")
         .openOn(map);
+
+      //Party
+      // L.circle([40.7403679, -73.997841], {
+      //   color: '#cc2a41',
+      //   fillColor: '#cc2a41',
+      //   fillOpacity: 0.5,
+      //   radius: 30
+      // }).addTo(map);
+
+      // L.popup({closeButton: false})
+      //   .setLatLng([40.7403679, -73.997841])
+      //   .setContent("WeWork,<br/>115 W 18th St, NYC")
+      //   .openOn(map);
 
     }
   </script>

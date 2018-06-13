@@ -78,127 +78,15 @@ layout: default
 <section id='schedule'>
   <h2>Schedule</h2>
   <ol class='schedule'>
-
-    <li class='schedule-item'>
-      <p class='time'>9:00 AM</p>
-      <div class='talk-details'>
-        <h3>Registration</h3>
-        <p class='speaker_name'>Doors open, get your conference badge and some New York breakfast</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>10:00 AM</p>
-      <div class='talk-details'>
-        <h3>Opening Keynote: The Good Bad Bug: Fail Your Way to Better Code</h3>
-        <p class='speaker_name'>Jessica Rudder</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>10:40 AM</p>
-      <div class='talk-details'>
-        <h3>Evented Autonomous Services in Ruby</h3>
-        <p class='speaker_name'>Scott Bellware</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>11:20 AM</p>
-      <div class='talk-details'>
-        <h3>Locking It Down with Ruby & Lockfiles</h3>
-        <p class='speaker_name'>Danielle Adams</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>11:40 AM</p>
-      <div class='talk-details'>
-        <h3>Running Jobs at Scale</h3>
-        <p class='speaker_name'>Kir Shatrov</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>12:00 PM</p>
-      <div class='talk-details'>
-        <h3>Encryption Pitfalls and Workarounds</h3>
-        <p class='speaker_name'>Melissa Wahnish</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>12:20 PM</p>
-      <div class='talk-details'>
-        <h3>The Practical Guide to Building an Apprenticeship</h3>
-        <p class='speaker_name'>Megan Tiu</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>1:00 PM</p>
-      <div class='talk-details'>
-        <h3>Lunch</h3>
-        <p class='speaker_name'></p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>02:00 PM</p>
-      <div class='talk-details'>
-        <h3>The Impermanence of Software</h3>
-        <p class='speaker_name'>Andy Croll</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>2:40 PM</p>
-      <div class='talk-details'>
-        <h3>I've Made a Huge Mistake: We Did Services All Wrong</h3>
-        <p class='speaker_name'>Kelly Sutton</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>3:20 PM</p>
-      <div class='talk-details'>
-        <h3>Writing Ruby Like it's 2018</h3>
-        <p class='speaker_name'>Joe Leo</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>3:40 PM</p>
-      <div class='talk-details'>
-        <h3>Building Efficient APIs with JSON-API</h3>
-        <p class='speaker_name'>Rushaine McBean</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>4:00 PM</p>
-      <div class='talk-details'>
-        <h3>The Twelve-Factor Function</h3>
-        <p class='speaker_name'>Desmond Rawls</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>4:20 PM</p>
-      <div class='talk-details'>
-        <h3>After Death</h3>
-        <p class='speaker_name'>Sam Phippen</p>
-      </div>
-    </li>
-
-    <li class='schedule-item'>
-      <p class='time'>5:00 PM</p>
-      <div class='talk-details'>
-        <h3>Closing Keynote: Analyzing and Reducing Ruby Memory Usage</h3>
-        <p class='speaker_name'>Aaron Patterson</p>
-      </div>
-    </li>
-
+    {% for schedule in site.data.schedule %}
+      <li class='schedule-item'>
+        <p class='time'>{{schedule.time}}</p>
+        <div class='talk-details'>
+          <h3>{{schedule.title}}</h3>
+          <p class='speaker_name'>{{schedule.name}}</p>
+        </div>
+      </li>
+    {% endfor %}
   </ol>
 </section>
 
