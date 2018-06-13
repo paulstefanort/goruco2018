@@ -76,9 +76,23 @@ layout: default
 </section>
 
 <section id='schedule'>
-  <h2>Schedule</h2>
+  <h2> Schedule </h2>
+  <h3> June 15th </h3>
   <ol class='schedule'>
-    {% for schedule in site.data.schedule %}
+    <li class='schedule-item'>
+      <p class='time'>5:30 PM</p>
+      <div class='talk-details'>
+        <h3>WeWork Pre Party</h3>
+        <p class='speaker_name'>
+          WeWork invites all GORUCO attendees for a night of pre party, fun, music, food & networking. <a href="https://members.wework.com/events/goruco-pre-party-91073" target="_blank">You must RSVP to attend.</a>
+        </p>
+      </div>
+    </li>
+  </ol>
+
+  <h3> June 16th </h3>
+  <ol class='schedule'>
+    {% for schedule in site.data.schedule-alpha %}
       <li class='schedule-item'>
         <p class='time'>{{schedule.time}}</p>
         <div class='talk-details'>
